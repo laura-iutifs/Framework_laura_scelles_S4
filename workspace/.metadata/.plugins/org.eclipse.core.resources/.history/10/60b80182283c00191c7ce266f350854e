@@ -1,0 +1,19 @@
+{{>/vueJs/header}}
+
+	<h1>Test VueJs</h1>
+	<br><%message%> <br><br>
+	
+	<v-btn @click="update" color=success>Modifier</v-btn>
+	<v-btn @click="testAjax" color=warning>Test Ajax</v-btn>
+	<p>( Aller voir dans la console le resultat de Test Ajax )</p>
+	
+	<v-alert
+      :value=alertVisible
+      color="success"
+      icon="check_circle"
+      outline
+    >
+      <%ajaxMessage%>
+    </v-alert>
+
+{{>/vueJs/footer}}
