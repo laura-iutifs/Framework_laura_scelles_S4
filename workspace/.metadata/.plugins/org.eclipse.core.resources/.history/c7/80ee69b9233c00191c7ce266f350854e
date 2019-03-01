@@ -1,0 +1,6 @@
+{{>/vueJs/testheader}}
+
+<h1>Test VueJs</h1>
+<%message%>
+
+{{>footer}}

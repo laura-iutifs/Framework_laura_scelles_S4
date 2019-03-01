@@ -1,0 +1,6 @@
+{{>header}}
+
+{{vue}}
+
+
+{{>footer}}

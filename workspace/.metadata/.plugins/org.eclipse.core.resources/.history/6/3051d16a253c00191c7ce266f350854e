@@ -1,0 +1,9 @@
+</v-container>
+    </v-content>
+</v-app>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vuetify/1.5.3/vuetify.min.js"></script>
+{{{vue}}}
+</body>
+</html>
