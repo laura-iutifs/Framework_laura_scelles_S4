@@ -1,9 +1,0 @@
-{{>/vueJs/header}}
-
-	<h1>Test VueJs</h1>
-	<br><%message%> <br><br>
-	
-	<v-btn @click="update" color=success>Modifier</v-btn>
-	<v-btn @click="" color=alert>Test Ajax</v-btn>
-
-{{>/vueJs/footer}}
