@@ -1,0 +1,10 @@
+http://localhost:8080/h2-console/
+last : http://localhost:8080/vue/orgas
+
+messagerie --> save
+application properties : ./data/messagerie
+
+penser a  creer organizations
+pour avoir du rendu client
+
+{{{vue}}} --> 3 car sinon s'affiche en html entities
