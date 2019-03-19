@@ -21,22 +21,18 @@ public class TestController {
 	@GetMapping("")
 	public String creerUser() {
 		// String login, String password, String email, String identity
-		User u1 = new User("u1", "u1bfbrf", "u1@unicaen.fr", "Laura Scelles");
-		User u2 = new User("u2", "u2grgze", "u2@unicaen.fr", "James Bond");
-		User u3 = new User("u3", "u3tjhet", "u3@unicaen.fr", "Hello World");
-
+		User u1 = new User();
 		usersRepo.save(u1);
-		usersRepo.save(u2);
-		usersRepo.save(u3);
-
+		
 		return "index";
 	}
 	
 	@GetMapping("login")
 	public String afficherUsers(Model model) {
-		List<User> users = usersRepo.findAll();
-		model.addAttribute("users", users);
+		model.addAttribute("utilisateur", new User() );
 		return "index";
 	}
+	
+	
 	
 }

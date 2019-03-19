@@ -16,13 +16,10 @@ public class User {
 	private String email;
 	private String identity;
 	
-	public User(String login, String password, String email, String identity) {
-		super();
-		this.login = login;
-		this.password = password;
-		this.email = email;
-		this.identity = identity;
+	public User() {
+		
 	}
+	
 
 	public int getId() {
 		return id;
