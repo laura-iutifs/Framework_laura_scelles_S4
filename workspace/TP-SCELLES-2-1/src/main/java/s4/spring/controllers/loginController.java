@@ -12,7 +12,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
+import s4.spring.entities.Language;
+import s4.spring.entities.Script;
 import s4.spring.entities.User;
+import s4.spring.repositories.CateroryRepo;
+import s4.spring.repositories.HistoryRepo;
+import s4.spring.repositories.LangageRepo;
 import s4.spring.repositories.ScriptRepo;
 import s4.spring.repositories.UsersRepo;
 
@@ -25,6 +30,15 @@ public class loginController {
 
 	@Autowired
 	private ScriptRepo scriptsRepo;
+	
+	@Autowired
+	private HistoryRepo historiesRepo; 
+	
+	@Autowired
+	private LangageRepo languagesRepo; 
+	
+	@Autowired
+	private CateroryRepo categoriesRepo; 
 
 	// ---------------USER------------------------
 
@@ -92,7 +106,29 @@ public class loginController {
 
 	//-----------------SCRIPT----------------------------
 	@GetMapping("indexS")
-	public String afficherScripts(Model model, HttpSession session) {
+	public String afficherScripts(Model model) {
+		//afficher liste des scripts
+		model.addAttribute("script", new Script());
+		model.addAttribute("langages", languagesRepo.findAll());
+		model.addAttribute("categories", categoriesRepo.findAll());
 		return "indexS";
 	}
+	
+	@RequestMapping("creerScript")
+	@ResponseBody
+	public String createScript() {
+		Script script = new Script();
+		script.setTitle("Mon premier script");
+		script.setDescription("c'est un script d'essai");
+		script.setContent("oESHDVPZOuhf ncefhnZPEF?CzhfcpiZNFHCIz fhZIZPZGRNCHFFHU");
+
+		scriptsRepo.save(script);
+		return script + " a ete ajoute a la base de donnees.";
+	}
+	
+	
+	
+	
+	
+	
 }

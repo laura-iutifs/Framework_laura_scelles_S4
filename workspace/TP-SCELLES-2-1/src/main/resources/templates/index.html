@@ -1,24 +1,43 @@
 {{>header}}
 <div class="ui container">
 	<h1>TP Note Laura Scelles 2.1</h1>
-	<p>/index</p>
+	<p>Accueil</p>
 	
 	<div class="ui secondary  menu">
 	  <a class="active item" href="/index"> Accueil </a>
 	  <a class="item" href="/indexS">Liste scripts</a>
 	  <a class="item" >  Ajouter script </a>
 	  <div class="right menu">
-	      <a class="ui button" href="/login">Deconnexion</a>
+	      <a class="ui inverted orange button" href="/login">Deconnexion</a>
 	  </div>
 	</div>
 	
 	<div class="ui container">
-		<p>Bienvenu {{user.identity}}<p>
-		
-		<p><b>Information connexion</b></p>
-		
-		
+		<h2>Bienvenu <b>{{user.login}}</b></h2>
+		<table class="ui inverted orange table">
+		  <thead>
+		    <th>Informations sur votre connexion</th>
+		    <th></th>
+		  </thead>
+		  <tbody class="ui center aligned">
+		    <tr>
+		      <td>Identity</td>
+		      <td class="ui left aligned">{{user.identity}}</td>
+		    </tr>
+		    <tr>
+		      <td>Login</td>
+		      <td class="ui left aligned">{{user.login}}</td>
+		    </tr>
+		    <tr>
+		      <td>Password</td>
+		      <td class="ui left aligned">{{user.password}}</td>
+		    </tr>
+		    <tr>
+		      <td>Email</td>
+		      <td class="ui left aligned">{{user.email}}</td>
+		    </tr>
+		  </tbody>
+		</table>
 	</div>
-	
 </div>
 {{>footer}}
