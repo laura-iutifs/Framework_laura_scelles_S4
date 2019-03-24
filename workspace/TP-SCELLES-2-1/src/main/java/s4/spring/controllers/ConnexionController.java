@@ -1,7 +1,5 @@
 package s4.spring.controllers;
 
-import java.util.List;
-
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,14 +11,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
 import s4.spring.entities.User;
+import s4.spring.repositories.ScriptRepo;
 import s4.spring.repositories.UsersRepo;
 
 @Controller
-@RequestMapping("/accueil/")
+@RequestMapping("")
 public class ConnexionController {
 
 	@Autowired
 	private UsersRepo usersRepo;
+	
+	@Autowired
+	private ScriptRepo scriptsRepo;
 
 	@PostMapping("login")
 	public RedirectView creerUser(Model model, User utilisateur, HttpSession session) {
@@ -35,12 +37,24 @@ public class ConnexionController {
 		return new RedirectView("/connexion");
 	}
 	
-	@GetMapping("login")
+	@GetMapping("connexion")
 	public String loginView(Model model) {
 		model.addAttribute("utilisateur", new User());
 		return "connexion";
 	}
 	
+	@GetMapping("deconnexion")
+	public RedirectView deconnexion(Model model, HttpSession session) {
+		session.removeAttribute("UtilisateurConnected");
+		return new RedirectView("/connexion");
+	}
 	
+	@GetMapping("index")
+	public String index(Model model, HttpSession session) {
+		model.addAttribute("user", session.getAttribute("connectedUser"));
+		model.addAttribute("scripts", scriptsRepo.findAll());
+
+		return "index";
+	}
 	
 }

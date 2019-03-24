@@ -12,15 +12,16 @@ import javax.persistence.OneToMany;
 
 @Entity
 public class Script {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+
 	private String title;
 	private String description;
 	private String content;
 	private String creationDate;
-	
+
 	// ---------------------------------------------------------
 
 	@ManyToOne
@@ -35,17 +36,25 @@ public class Script {
 	@ManyToOne
 	private Category categorie;
 
-	public int getId() {
-		return id;
+	@Override
+	public String toString() {
+		return "Script n°" + id + ", user =" + user + ", langage = " + language + ", categorie" + categorie
+				+ ", date de creation = " + creationDate + ", title = " + title + ", history =" + history
+				+ ", description =" + description + ", content = " + content;
 	}
+
 	// ---------------------------------------------------------
 
 	public Script() {
 		history = new ArrayList<>();
-		//penser a garder une trace des differentes versions ecrites
+		// penser a garder une trace des differentes versions ecrites
 	}
-	
+
 	// --------------------- Getters / Setters ------------------
+	
+	public int getId() {
+		return id;
+	}
 	
 	public void setId(int id) {
 		this.id = id;
