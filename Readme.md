@@ -18,7 +18,7 @@ Langages et framework utilisés
 * Mustache - doc [Mustache](https://mustache.github.io/mustache.5.html)
 * Spring Boot - [Spring](https://spring.io/)
 
---> Features Spring Boot - [Sprin Boot](https://spring.io/projects/spring-boot)
+--> Features Spring Boot - [click here](https://spring.io/projects/spring-boot)
 
 * SEMANTIC UI 2.4.2 - [Semantic](https://semantic-ui.com/)
 * VuetifyJs - [Vuetify](https://vuetifyjs.com/en/getting-started/quick-start)
@@ -34,16 +34,19 @@ Notions abordees
 * SPA (Single Page Apllication)
 * JPA / Hibernate
 
-Installer l'application
------------------------
+Installer l'application Web
+---------------------------
+
+Ouvrir ou telecharger Eclipse Photon
 
 creer un nouveau projet a l'aide de Spring Initializr - https://start.spring.io/
+
 Penser a parametrer le **contextPath** dans application.properties dans le package ressources
 
 Pour ancer une application deja existante :
-	ouvrir le projet Spring avec Eclipse ou bien IntelliJ
+	ouvrir le projet Spring avec Eclipse (Version: Photon Release (4.8.0)) ou bien IntelliJ
 	
-	Run le projet avec Spring App
+	Run le projet en tant que Spring App
 	
 
 
