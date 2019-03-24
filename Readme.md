@@ -17,7 +17,8 @@ Langages et framework utilisés
 
 * Mustache - doc [Mustache](https://mustache.github.io/mustache.5.html)
 * Spring Boot - [Spring](https://spring.io/)
-Pourquoi Spring Boot - [Sprin Boot](https://spring.io/projects/spring-boot)
+
+--> Features Spring Boot - [Sprin Boot](https://spring.io/projects/spring-boot)
 
 * SEMANTIC UI 2.4.2 - [Semantic](https://semantic-ui.com/)
 * VuetifyJs - [Vuetify](https://vuetifyjs.com/en/getting-started/quick-start)
