@@ -1,5 +1,7 @@
 package s4.spring.controllers;
 
+import java.util.Optional;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
@@ -8,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
@@ -117,18 +120,23 @@ public class loginController {
 	@RequestMapping("creerScript")
 	@ResponseBody
 	public String createScript() {
-		Script script = new Script();
-		script.setTitle("Mon premier script");
-		script.setDescription("c'est un script d'essai");
-		script.setContent("oESHDVPZOuhf ncefhnZPEF?CzhfcpiZNFHCIz fhZIZPZGRNCHFFHU");
-
-		scriptsRepo.save(script);
-		return script + " a ete ajoute a la base de donnees.";
+		Script s1 = new Script();
+		s1.setTitle("Mon premier script");
+		s1.setCreationDate("24/03/2019");
+		s1.setDescription("C'est un script d'essai");
+		s1.setContent("oESHDVPZOuhf ncefhnZPEF?CzhfcpiZNFHCIz fhZIZPZGRNCHFFHU");
+		
+		Script s2 = new Script();
+		s2.setTitle("Mon deuxieme script");
+		s2.setCreationDate("24/03/2019");
+		s2.setDescription("C'est un script d'essai");
+		s2.setContent("fzuhoghzrg zeonezofhzeibif viaeubfuigfzegtU");
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		scriptsRepo.save(s1);
+		scriptsRepo.save(s2);
+		return "s1 et s2 ont ete ajoutes a la base de donnees";
 	}
-	
-	
-	
-	
-	
 	
 }

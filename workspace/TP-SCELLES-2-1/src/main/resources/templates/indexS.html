@@ -6,7 +6,6 @@
 	<div class="ui secondary  menu">
 	  <a class="item" href="/index"> Accueil </a>
 	  <a class="active item" href="script/indexS">Liste scripts</a>
-	  <a class="item" >  Ajouter script </a>
 	  <div class="right menu">
 	  	<a class="ui inverted blue button" href="/newS">Ajouter un script</a>
 	    <a class="ui inverted blue button" href="/login">Deconnexion</a>
@@ -24,30 +23,16 @@
 		  </thead>
 		  
 		  <tbody class="ui center aligned">
-		  {{#script}}
-		  
+		  {{#scripts}}
 		    <tr>
-		      <td></td>
-		    </tr>
-		    <tr>
-		      <td></td>
-		    </tr>
-		    <tr>  
-		      <td></td>
-		    </tr>
-		    <tr>
-		      <td></td>
-		    </tr>
-		    <tr>
-		      <td></td>
-		    </tr>
-		    <tr>
-		      <td></td>
-		    </tr>
-		    
-		  {{/script}}
+		    	<td>{{title}}------------</td>
+		    	<td>{{creationDate}}</td>
+		    	<td>{{description}}</td>
+		    	<td>{{content}}</td>
+		    	<td></td><!--afficher tt les langages-->
+		    </tr>	    
+		  {{/scripts}}
 		  </tbody>
-		  
 		</table>
 	</div>
 </div>
