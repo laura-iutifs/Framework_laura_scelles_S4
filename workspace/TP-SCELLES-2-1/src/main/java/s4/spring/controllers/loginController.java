@@ -26,7 +26,7 @@ public class loginController {
 	@Autowired
 	private ScriptRepo scriptsRepo;
 
-	// ---------------------------------------
+	// ---------------USER------------------------
 
 	@RequestMapping("new")
 	@ResponseBody
@@ -83,11 +83,16 @@ public class loginController {
 		}
 	}
 	
-	// ------------------------------------
 	// revenir sur la page connexion si utilisateur se deconnecte
 	@GetMapping("deconnexion")
 	public RedirectView deconnexion(Model model, HttpSession session) {
 		session.removeAttribute("UtilisateurConnecte");
 		return new RedirectView("/login");
+	}
+
+	//-----------------SCRIPT----------------------------
+	@GetMapping("indexS")
+	public String afficherScripts(Model model, HttpSession session) {
+		return "indexS";
 	}
 }
