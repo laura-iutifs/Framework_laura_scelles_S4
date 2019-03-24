@@ -12,7 +12,7 @@ Langages et framework utilisés
 
 * HTML
 * CSS
-* JACA SCRIPT
+* JAVA SCRIPT
 * Vue.Js - [Vue](https://vuejs.org/v2/guide/)
 
 * Mustache - doc [Mustache](https://mustache.github.io/mustache.5.html)
