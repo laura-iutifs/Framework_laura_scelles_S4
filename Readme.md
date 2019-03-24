@@ -37,27 +37,27 @@ Notions abordees
 Installer l'application Web
 ---------------------------
 
-A partir de [Spring Initializr](https://start.spring.io/)
+A partir de [Spring Initializr :](https://start.spring.io/)
 
-Groupe s4.spring
-
-Artifact TD5
-
-Packaging War
-
-Description TD SpringBoot
-
-Selectionner les dependances suivantes :
-
-* Web
-* DevTools
-* Mustache
-* H2
-* JPA
-
-Dezipper le projet telecharge
-
-Importer le projet dans Eclipse (File/Import/Maven/Existing Maven Projects)
+	Groupe s4.spring
+	 
+	Artifact TD5
+	 
+	Packaging War
+	 
+	Description TD SpringBoot
+	 
+	Selectionner les dependances suivantes :
+	 
+	* Web
+	* DevTools
+	* Mustache
+	* H2
+	* JPA
+	 
+	Dezipper le projet telecharge
+	 
+	Importer le projet dans Eclipse (File/Import/Maven/Existing Maven Projects)
 
 Configurer le projet dans application.properties
 
