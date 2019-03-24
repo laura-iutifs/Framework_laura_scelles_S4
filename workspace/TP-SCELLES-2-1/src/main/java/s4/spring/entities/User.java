@@ -1,25 +1,32 @@
 package s4.spring.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class User {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+
 	private String login;
 	private String password;
 	private String email;
 	private String identity;
-	
+
+	@OneToMany
+	private List<Script> scripts;
+
 	public User() {
-		
+		scripts = new ArrayList<Script>();
 	}
-	
 
 	public int getId() {
 		return id;
@@ -59,6 +66,20 @@ public class User {
 
 	public void setIdentity(String identity) {
 		this.identity = identity;
+	}
+
+	@Override
+	public String toString() {
+		return "Utilisateur n°" + id + ", identity =" + identity + ", login = " + login + ", password = " + password
+				+ ", email = " + email + ", scripts = " + scripts;
+	}
+
+	public List<Script> getScripts() {
+		return scripts;
+	}
+
+	public void setScripts(List<Script> scripts) {
+		this.scripts = scripts;
 	}
 
 }
