@@ -4,10 +4,11 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
+
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
@@ -17,7 +18,7 @@ import s4.spring.repositories.UsersRepo;
 
 @Controller
 @RequestMapping("")
-public class ConnexionController {
+public class loginController {
 
 	@Autowired
 	private UsersRepo usersRepo;
@@ -39,7 +40,13 @@ public class ConnexionController {
 		usersRepo.save(user);
 		return user.getIdentity() + " a ete ajoute a la base de donnee";
 	}
-
+	
+	@GetMapping("login")
+	public String Vuelogin(Model model) {
+		model.addAttribute("utilisateur", new User());
+		return "login";
+	}
+	
 	@PostMapping("login")
 	public RedirectView creerUser(Model model, User utilisateur, HttpSession session) {
 		// String login, String password, String email, String identity
@@ -49,20 +56,14 @@ public class ConnexionController {
 			session.setAttribute("UtilisateurConnected", user);
 			return new RedirectView("/index");
 		}
-		// si il n'existe pas alors on demande reconnexion
-		return new RedirectView("/connexion");
+		// si il n'existe pas alors on demande relogin
+		return new RedirectView("/login");
 	}
 
-	@GetMapping("connexion")
-	public String VueConnexion(Model model) {
-		model.addAttribute("utilisateur", new User());
-		return "connexion";
-	}
-
-	@GetMapping("deconnexion")
-	public RedirectView deconnexion(Model model, HttpSession session) {
+	@GetMapping("delogin")
+	public RedirectView delogin(Model model, HttpSession session) {
 		session.removeAttribute("UtilisateurConnected");
-		return new RedirectView("/connexion");
+		return new RedirectView("/login");
 	}
 
 	@GetMapping("index")
