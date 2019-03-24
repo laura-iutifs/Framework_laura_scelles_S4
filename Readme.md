@@ -87,6 +87,13 @@ Configurer le projet dans application.properties
 
 Ou bien a partir d'un nouveau projet Spring Boot (File/New/Spring Starter Project)
 
+Bade de donnee
+--------------
+Lien: http://localhost:4749/h2-console/
+Setting Name : messagerie
+JDBC URL : jdbc:h2:./data/messagerie
+
+
 Etudiant
 --------
 
