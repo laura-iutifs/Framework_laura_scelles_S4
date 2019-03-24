@@ -37,22 +37,55 @@ Notions abordees
 Installer l'application Web
 ---------------------------
 
-Ouvrir ou telecharger Eclipse Photon
+A partir de [Spring Initializr](https://start.spring.io/)
 
-creer un nouveau projet a l'aide de Spring Initializr - https://start.spring.io/
+Groupe s4.spring
 
-Penser a parametrer le **contextPath** dans application.properties dans le package ressources
+Artifact TD5
 
-Pour ancer une application deja existante :
-	ouvrir le projet Spring avec Eclipse (Version: Photon Release (4.8.0)) ou bien IntelliJ
-	
-	Run le projet en tant que Spring App
-	
+Packaging War
 
+Description TD SpringBoot
 
+Selectionner les dependances suivantes :
 
+* Web
+* DevTools
+* Mustache
+* H2
+* JPA
 
+Dezipper le projet telecharge
 
+Importer le projet dans Eclipse (File/Import/Maven/Existing Maven Projects)
+
+Configurer le projet dans application.properties
+
+	spring.datasource.url=jdbc:h2:file:./data/messagerie;DB_CLOSE_ON_EXIT=FALSE
+	 
+	spring.datasource.username=sa
+	 
+	spring.datasource.password=
+	 
+	spring.datasource.driverClassName=org.h2.Driver
+	 
+	spring.jpa.hibernate.ddl-auto=update
+	 
+	spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+	 
+	spring.h2.console.enabled=true
+	 
+	spring.h2.console.path=/h2-console
+		
+	server.servlet.context-path=/
+	 
+	# Mustache Template engine
+	 
+	spring.mustache.prefix=classpath:/templates/
+	 
+	spring.mustache.suffix=.html
+
+Ou bien a partir d'un nouveau projet Spring Boot (File/New/Spring Starter Project)
 
 Etudiant
 --------
