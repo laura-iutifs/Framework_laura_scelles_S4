@@ -155,7 +155,7 @@ public class loginController {
 	@PostMapping("script/submit")
 	public RedirectView ajouterScript(Model model, Script nouveauScript, HttpSession session) {
 		
-		
+		System.out.println(nouveauScript); //affichage pour debug
 		return new RedirectView("/index");
 	}
 		
