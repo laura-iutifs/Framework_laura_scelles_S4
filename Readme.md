@@ -14,7 +14,7 @@ Langages et framework utilisés
 * JAVA SCRIPT
 * Vue.Js - [Vue](https://vuejs.org/v2/guide/)
 
-* Mustache - doc [Mustache](https://mustache.github.io/mustache.5.html)
+* Mustache - doc [Mustache 5](https://mustache.github.io/mustache.5.html)
 * Spring Boot - [Spring](https://spring.io/)
 
 --> Features Spring Boot - [click here](https://spring.io/projects/spring-boot)
@@ -121,6 +121,16 @@ Utile
 		}
 	Passer une variable :
 		 public void findPet(@PathVariable String petId, @MatrixVariable int q) {}
+	
+	**One to Many**
+		Chaque groupe appartient à une organisation
+	
+	**Many to One**
+		Chaque organisation possède plusieurs groupes
+	
+	**Many to Many**
+		Chaque utilisateur peut appartenir à plusieurs groupes
+	
 
 
 Base de donnees
