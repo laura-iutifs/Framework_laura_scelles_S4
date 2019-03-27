@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -26,7 +27,7 @@ public class User {
 	private String email;
 	private String identity;
 
-	@OneToMany
+	@OneToMany(fetch=FetchType.EAGER, mappedBy="user")
 	private List<Script> scripts;
 
 	public User() {

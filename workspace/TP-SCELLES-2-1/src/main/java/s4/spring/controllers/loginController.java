@@ -108,9 +108,11 @@ public class loginController {
 
 	//-----------------SCRIPT----------------------------
 	@GetMapping("script")
-	public String afficherScripts(Model model) {
+	public String afficherScripts(Model model,HttpSession session) {
 		//afficher liste des scripts
-		model.addAttribute("scripts", scriptsRepo.findAll());
+		User user=(User) session.getAttribute("UtilisateurConnecte");
+		
+		model.addAttribute("scripts", user.getScripts());
 		model.addAttribute("langages", languagesRepo.findAll());
 		model.addAttribute("categories", categoriesRepo.findAll());
 		return "script";
@@ -120,6 +122,7 @@ public class loginController {
 	@ResponseBody
 	public String createScript() {
 		Script s1 = new Script();
+		
 		s1.setTitle("Mon premier script");
 		s1.setCreationDate("24/03/2019");
 		s1.setDescription("C'est un script d'essai");
@@ -147,6 +150,13 @@ public class loginController {
 		model.addAttribute("categories", categoriesRepo.findAll());
 		
 		return "script/new";
+	}
+	
+	@PostMapping("script/submit")
+	public RedirectView ajouterScript(Model model, Script nouveauScript, HttpSession session) {
+		
+		
+		return new RedirectView("/index");
 	}
 		
 }
