@@ -6,7 +6,6 @@ de l'option Web du DUT Informatique de l'Université de Caen, Ifs Campus 3.
 Ils sont animés par **Jean Christophe HERON**.
 
 
-
 Langages et framework utilisés
 ------------------------------
 
@@ -87,7 +86,25 @@ Configurer le projet dans application.properties
 
 Ou bien a partir d'un nouveau projet Spring Boot (File/New/Spring Starter Project)
 
-Bade de donnee
+Utile
+-----
+	Les annotations @RequestMapping permettent de définir le routage
+		GET: /persons/1 ⇒ Affiche la personne d'id 1
+		POST: /persons ⇒ Ajoute la personne passée en paramètre
+	@GetMapping("/{id}")
+	@PostMapping
+	@ResponseBody => la methode retourne une valeur
+	ModelAttribute => envoie des donnees de la vue au controller
+	
+	Comment appeller une vue : 
+		@RequestMapping
+		public String index() {
+			return "main/index";
+		}
+	
+
+
+Base de donnees
 --------------
 Lien: http://localhost:4749/h2-console/
 Setting Name : messagerie
@@ -97,5 +114,5 @@ JDBC URL : jdbc:h2:./data/messagerie
 Etudiant
 --------
 
-Ces TDs sont realises par Laura SCELLES, etudiant en deuxieme annee de DUT Informatique
-a l'universite de Caen.
+Ces TDs sont realises par Laura SCELLES, etudiante en deuxieme annee de DUT Informatique
+a l'universite de Caen, Ifs, Campus 3.
