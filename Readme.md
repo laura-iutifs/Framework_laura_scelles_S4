@@ -122,14 +122,14 @@ Utile
 	Passer une variable :
 		 public void findPet(@PathVariable String petId, @MatrixVariable int q) {}
 	
-	**One to Many**
-		Chaque groupe appartient à une organisation
+**One to Many**
+	Chaque groupe appartient à une organisation
 	
-	**Many to One**
-		Chaque organisation possède plusieurs groupes
+**Many to One**
+	Chaque organisation possède plusieurs groupes
 	
-	**Many to Many**
-		Chaque utilisateur peut appartenir à plusieurs groupes
+**Many to Many**
+	Chaque utilisateur peut appartenir à plusieurs groupes
 	
 
 
