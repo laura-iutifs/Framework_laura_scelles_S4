@@ -12,41 +12,48 @@
 	</div>
 	
 	<div class="ui container"></br>
-	<form class="ui form" modelAttribute="utilisateur" method="POST" action="/login">		
+	<form class="ui form" modelAttribute="nouveauScript" method="POST" action="submit">		
 		
 		<div class="two fields">
 		    <div class="field">
 		      <label>Title</label>
-		      <input placeholder="..." type="text" required="required"></input>
+		      <input placeholder="Mon script" type="text" name="title" required></input>
 		    </div>
 		    <div class="field">
 		      <label>Date de creation</label>
-		      <input placeholder="../../...." type="date"></input>
+		      <input placeholder="27/03/2019" type="text" name="creationDate" required></input>
 		    </div>
 		 </div>
 		 <div class="field">
 		     <label>Description</label>
-		    <textarea rows="2"></textarea>
+		    <textarea rows="2" name="description"></textarea>
 		 </div>
 		 <div class="field">
 		     <label>Content</label>
-		     <textarea rows="10"></textarea>
+		     <textarea rows="10" name="content"></textarea>
 		 </div>
 		 <div class="two fields">
 			 <div class=" field">
-			     <label>Language</label>
-			     <select class="ui dropdown" name="language" required="required"></select>
-			     <option></option>
+			 <label>Language</label>
+			     <select class="ui dropdown" name="language" required>
+				     <option selected>Indefini</option>
+				     {{#languages}}
+				     <option>{{name}}</option>
+				 	 {{/languages}}
+			 	 </select>
 			 </div>
 			 <div class=" field">
 			     <label>Category</label>
-			     <input placeholder="..." type="text"></input>
+			     <select class="ui dropdown" name="category" required>
+				     <option selected>Indefini</option>
+				     {{#categories}}
+				     <option>{{name}}</option>
+				 	 {{/categories}}
+			 	 </select>
 			 </div>
-		 </div>
-		  
-
+		 </div>	 
+		 <button class="ui green submit button" type="submit">Submit</button>
 	</form>
 	</div>
-		
 </div>
 {{>footer}}

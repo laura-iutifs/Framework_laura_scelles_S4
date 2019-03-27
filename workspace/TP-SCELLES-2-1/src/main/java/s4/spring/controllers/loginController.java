@@ -123,7 +123,7 @@ public class loginController {
 		s1.setTitle("Mon premier script");
 		s1.setCreationDate("24/03/2019");
 		s1.setDescription("C'est un script d'essai");
-		s1.setContent("oESHDVPZOuhf ncefhnZPEF?CzhfcpiZNFHCIz fhZIZPZGRNCHFFHU");
+		s1.setContent("oESHDVPZOuhf ncefhnZPEF fhZIZPZGRNCHFFHU");
 		
 		Script s2 = new Script();
 		s2.setTitle("Mon deuxieme script");
@@ -141,8 +141,12 @@ public class loginController {
 	//ajouter un script
 	
 	@GetMapping("script/new")
-	public String ajouterScript() {
+	public String ajouterScript(Model model) {
+		model.addAttribute("script", new Script());
+		model.addAttribute("languages", languagesRepo.findAll());
+		model.addAttribute("categories", categoriesRepo.findAll());
+		
 		return "script/new";
 	}
-	
+		
 }
