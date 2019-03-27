@@ -33,6 +33,24 @@ Notions abordees
 * SPA (Single Page Apllication)
 * JPA / Hibernate
 
+Structure d'un projet SpringBoot
+--------------------------------
+
+	src/main/java 
+		=> Classes java du projet
+			* entities
+			* controllers
+			* repositories
+			* WebConfig
+	src/main/java 
+		* templates (vues / CSS / JS / images...)
+		* application.properties
+	src/test/java
+		=> tests unitaires du projet
+	data => base de donnees generee
+	pom.xml => regroupe les dependances du projet
+	
+
 Installer l'application Web
 ---------------------------
 
@@ -101,7 +119,8 @@ Utile
 		public String index() {
 			return "main/index";
 		}
-	
+	Passer une variable :
+		 public void findPet(@PathVariable String petId, @MatrixVariable int q) {}
 
 
 Base de donnees
