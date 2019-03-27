@@ -1,18 +1,51 @@
 {{>header}}
 <div class="ui container">
-	<h1>TP Note Laura Scelles 2.1</h1>
+	</br><h1>TP Note Laura Scelles 2.1</h1>
 	
 	<div class="ui top attached tabular menu">
-	  <a class="ui item" href="/index"> Accueil </a>
-	  <a class="ui item" href="script">Liste scripts</a>
+	  <a class="ui item" href="../index"> Accueil </a>
+	  <a class="ui item" href="../script">Liste scripts</a>
 	  <div class="right menu">
-	  	<a class="ui active item " href="script/new">Ajouter un script</a>
-	    <a class="ui item" href="/login">Deconnexion</a>
+	  	<a class="ui active item " href="new">Ajouter un script</a>
+	    <a class="ui item" href="../login">Deconnexion</a>
 	  </div>
 	</div>
 	
-	<div class="ui container">
+	<div class="ui container"></br>
+	<form class="ui form" modelAttribute="utilisateur" method="POST" action="/login">		
+		
+		<div class="two fields">
+		    <div class="field">
+		      <label>Title</label>
+		      <input placeholder="..." type="text" required="required"></input>
+		    </div>
+		    <div class="field">
+		      <label>Date de creation</label>
+		      <input placeholder="../../...." type="date"></input>
+		    </div>
+		 </div>
+		 <div class="field">
+		     <label>Description</label>
+		    <textarea rows="2"></textarea>
+		 </div>
+		 <div class="field">
+		     <label>Content</label>
+		     <textarea rows="10"></textarea>
+		 </div>
+		 <div class="two fields">
+			 <div class=" field">
+			     <label>Language</label>
+			     <select class="ui dropdown" name="language" required="required"></select>
+			     <option></option>
+			 </div>
+			 <div class=" field">
+			     <label>Category</label>
+			     <input placeholder="..." type="text"></input>
+			 </div>
+		 </div>
+		  
 
+	</form>
 	</div>
 		
 </div>
