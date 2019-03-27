@@ -1,18 +1,17 @@
 {{>header}}
 <div class="ui container">
 	<h1>TP Note Laura Scelles 2.1</h1>
-	<p>Accueil</p>
 	
-	<div class="ui secondary  menu">
-	  <a class="active item" href="/index"> Accueil </a>
-	  <a class="item" href="/indexS">Liste scripts</a>
+	<div class="ui top attached tabular  menu">
+	  <a class=" ui active item" href="/index"> Accueil </a>
+	  <a class=" ui item" href="script">Liste scripts</a>
 	  <div class="right menu">
-	      <a class="ui inverted orange button" href="/login">Deconnexion</a>
+	      <a class="ui item" href="/login">Deconnexion</a>
 	  </div>
 	</div>
 	
 	<div class="ui container">
-		<h2>Bienvenu <b>{{user.login}}</b></h2>
+		</br><h2>Bienvenu <b>{{user.login}}</b></h2>
 		<table class="ui inverted orange table">
 		  <thead>
 		    <th>Informations sur votre connexion</th>

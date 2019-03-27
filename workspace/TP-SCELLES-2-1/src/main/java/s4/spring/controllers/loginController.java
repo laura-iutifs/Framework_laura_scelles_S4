@@ -84,7 +84,6 @@ public class loginController {
 		if (isConnected(session)) {
 			//on ajoute au model l utilisateur connecte et ses scripts
 			model.addAttribute("user", session.getAttribute("UtilisateurConnecte"));
-			model.addAttribute("scripts", scriptsRepo.findAll());
 			return "index";
 		} else {
 			return "login";
@@ -108,13 +107,13 @@ public class loginController {
 	}
 
 	//-----------------SCRIPT----------------------------
-	@GetMapping("indexS")
+	@GetMapping("script")
 	public String afficherScripts(Model model) {
 		//afficher liste des scripts
-		model.addAttribute("script", new Script());
+		model.addAttribute("scripts", scriptsRepo.findAll());
 		model.addAttribute("langages", languagesRepo.findAll());
 		model.addAttribute("categories", categoriesRepo.findAll());
-		return "indexS";
+		return "script";
 	}
 	
 	@RequestMapping("creerScript")
@@ -137,6 +136,13 @@ public class loginController {
 		scriptsRepo.save(s1);
 		scriptsRepo.save(s2);
 		return "s1 et s2 ont ete ajoutes a la base de donnees";
+	}
+	
+	//ajouter un script
+	
+	@GetMapping("script/new")
+	public String ajouterScript() {
+		return "script/new";
 	}
 	
 }

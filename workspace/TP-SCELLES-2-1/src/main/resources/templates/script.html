@@ -1,14 +1,13 @@
 {{>header}}
 <div class="ui container">
 	<h1>TP Note Laura Scelles 2.1</h1>
-	<p>Liste des scripts</p>
-	
-	<div class="ui secondary  menu">
+
+	<div class="ui top attached tabular menu">
 	  <a class="item" href="/index"> Accueil </a>
-	  <a class="active item" href="script/indexS">Liste scripts</a>
+	  <a class="active item" href="script">Liste scripts</a>
 	  <div class="right menu">
-	  	<a class="ui inverted blue button" href="/newS">Ajouter un script</a>
-	    <a class="ui inverted blue button" href="/login">Deconnexion</a>
+	  	<a class="ui item " href="script/new">Ajouter un script</a>
+	    <a class="ui item" href="/login">Deconnexion</a>
 	  </div>
 	</div>
 	<h2>Informations sur vos scripts</h2>
@@ -25,7 +24,7 @@
 		  <tbody class="ui center aligned">
 		  {{#scripts}}
 		    <tr>
-		    	<td>{{title}}------------</td>
+		    	<td>{{title}}</td>
 		    	<td>{{creationDate}}</td>
 		    	<td>{{description}}</td>
 		    	<td>{{content}}</td>
