@@ -100,10 +100,11 @@ public class loginController {
 	}
 	
 	// revenir sur la page connexion si utilisateur se deconnecte
-	@GetMapping("deconnexion")
-	public RedirectView deconnexion(Model model, HttpSession session) {
+	@GetMapping("logout")
+	public String deconnexion(Model model, HttpSession session) {
 		session.removeAttribute("UtilisateurConnecte");
-		return new RedirectView("/login");
+		//return new RedirectView("/logout");
+		return "logout";
 	}
 
 	//-----------------SCRIPT----------------------------
