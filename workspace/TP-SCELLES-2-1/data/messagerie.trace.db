@@ -714,3 +714,11 @@ Caused by: org.h2.jdbc.JdbcSQLException: La connexion na pas été fermée et a 
 The connection was not closed by the application and is garbage collected [90018-197]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
 	... 84 more
+2019-04-02 18:15:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Erreur lors de la conversion de données "'' (SCRIPT: CATEGORIE_ID INTEGER)"
+Data conversion error converting "'' (SCRIPT: CATEGORIE_ID INTEGER)"; SQL statement:
+INSERT INTO "PUBLIC"."SCRIPT"("ID","CONTENT","CREATION_DATE","DESCRIPTION","TITLE","CATEGORIE_ID","LANGUAGE_ID","USER_ID")VALUES(?,?,?,?,?,?,?,?) -- (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8) [22018-197]
+2019-04-02 18:15:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Erreur lors de la conversion de données "'' (SCRIPT: CATEGORIE_ID INTEGER)"
+Data conversion error converting "'' (SCRIPT: CATEGORIE_ID INTEGER)"; SQL statement:
+INSERT INTO "PUBLIC"."SCRIPT"("ID","CONTENT","CREATION_DATE","DESCRIPTION","TITLE","CATEGORIE_ID","LANGUAGE_ID","USER_ID")VALUES(?,?,?,?,?,?,?,?) -- (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8) [22018-197]

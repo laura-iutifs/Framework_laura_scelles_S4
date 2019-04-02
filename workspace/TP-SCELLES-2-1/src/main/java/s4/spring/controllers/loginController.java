@@ -124,19 +124,21 @@ public class loginController {
 
 	@RequestMapping("creerScript")
 	@ResponseBody
-	public String createScript() {
+	public String createScript(HttpSession session) {
 		Script s1 = new Script();
 
 		s1.setTitle("Script echo");
 		s1.setCreationDate("24/03/2019");
 		s1.setDescription("comment afficher quelque chose (.bat)");
 		s1.setContent("echo Hello World!");
+		s1.setUser((User) session.getAttribute("UtilisateurConnecte"));
 
 		Script s2 = new Script();
 		s2.setTitle("$variable");
 		s2.setCreationDate("02/04/2019");
 		s2.setDescription("afficher contenu d'une variable");
 		s2.setContent("echo \"Bienvenue $prenom\";");
+		s2.setUser((User) session.getAttribute("UtilisateurConnecte"));
 
 		System.out.println(s1);
 		System.out.println(s2);
@@ -205,12 +207,9 @@ public class loginController {
 	
 	@GetMapping("script/delete/{id}")
 	public RedirectView delete(@PathVariable int id, Script script) {
-		Optional<Script> opt = scriptsRepo.findById(id);
-		if (opt.isPresent()) {
-			Script scriptV1 = opt.get(); // creation d'une "ancienne" version
-			scriptsRepo.delete(scriptV1);
-		}
+		scriptsRepo.delete(script);
 		return new RedirectView("/index");
+		//TODO trouver pourquoi il faut se deconnecter pour actualiser liste des scripts
 	}
 
 	// ----------------fonction transformation date---------------------------
