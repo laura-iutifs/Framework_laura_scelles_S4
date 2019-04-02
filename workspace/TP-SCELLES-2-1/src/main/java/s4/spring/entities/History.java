@@ -4,16 +4,20 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class History {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String date;
 	private String content;
 	private String comment;
+	
+	@ManyToOne
+	private Script script;
 
 	public int getId() {
 		return id;
@@ -45,6 +49,14 @@ public class History {
 
 	public void setComment(String comment) {
 		this.comment = comment;
+	}
+
+	public Script getScripts() {
+		return script;
+	}
+
+	public void setScripts(Script script) {
+		this.script = script;
 	}
 
 }

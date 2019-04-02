@@ -1,6 +1,6 @@
 {{>header}}
 <div class="ui container">
-	</br><h1>TP Note Laura Scelles 2.1</h1>
+	</br><h1>TP SpringBoot Laura Scelles 2.1</h1>
 	
 	<div class="ui top attached tabular menu">
 	  <a class="ui item" href="../index"> Accueil </a>
@@ -21,16 +21,16 @@
 		    </div>
 		    <div class="field">
 		      <label>Date de creation</label>
-		      <input placeholder="27/03/2019" type="text" name="creationDate" required></input>
+		      <input type="date" name="creationDate" required></input>
 		    </div>
 		 </div>
 		 <div class="field">
 		     <label>Description</label>
-		    <textarea rows="2" name="description"></textarea>
+		    <textarea placeholder="..." rows="2" name="description"></textarea>
 		 </div>
 		 <div class="field">
 		     <label>Content</label>
-		     <textarea rows="10" name="content"></textarea>
+		     <textarea placeholder="..." rows="10" name="content"></textarea>
 		 </div>
 		 <div class="two fields">
 			 <div class=" field">
@@ -52,7 +52,10 @@
 			 	 </select>
 			 </div>
 		 </div>	 
-		 <button class="ui green submit button" type="submit">Submit</button>
+		 <div class="ui two bottom attached buttons">
+		    <div class="ui button">Annuler</div>
+		    <div class="ui button" type="submit">Sauvegarder</div>
+		</div>
 	</form>
 	</div>
 </div>

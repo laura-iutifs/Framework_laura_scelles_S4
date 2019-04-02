@@ -38,9 +38,9 @@ public class Script {
 
 	@Override
 	public String toString() {
-		return "Script n°" + id + ", user =" + user + ", langage = " + language + ", categorie" + categorie
-				+ ", date de creation = " + creationDate + ", title = " + title + ", history =" + history
-				+ ", description =" + description + ", content = " + content;
+		return "Script n°" + id + ", user = " + user + ", langage = " + language + ", categorie = " + categorie
+				+ ", date de creation = " + creationDate + ", title = " + title + ", history = " + history
+				+ ", description = " + description + ", content = " + content;
 	}
 
 	// ---------------------------------------------------------
@@ -51,11 +51,11 @@ public class Script {
 	}
 
 	// --------------------- Getters / Setters ------------------
-	
+
 	public int getId() {
 		return id;
 	}
-	
+
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -90,6 +90,30 @@ public class Script {
 
 	public void setCreationDate(String creationDate) {
 		this.creationDate = creationDate;
+	}
+
+	public Language getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(Language language) {
+		this.language = language;
+	}
+
+	public Category getCategory() {
+		return categorie;
+	}
+
+	public void setCategory(Category category) {
+		this.categorie = category;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 }

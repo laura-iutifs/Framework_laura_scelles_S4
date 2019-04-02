@@ -18,6 +18,7 @@
 				<th>Title</th>
 				<th>Date de creation</th>
 				<th>Description</th>
+				<th></th>
 			</tr>
 		  </thead>
 		  <tbody>
@@ -26,6 +27,13 @@
 		    	<td>{{title}}</td>
 		    	<td>{{creationDate}}</td>
 		    	<td>{{description}}</td>
+		    	<td>
+		    		<a href="script/{{id}}"><button class="circular ui blue icon button">
+					<i class="edit icon"></i></button></a>
+					<!-- -->
+					<a href="script/delete/{{id}}"><button class="circular ui red icon button">
+					<i class="delete icon"></i></button></a>
+				</td>
 		    </tr>	    
 		  {{/scripts}}
 		  </tbody>
