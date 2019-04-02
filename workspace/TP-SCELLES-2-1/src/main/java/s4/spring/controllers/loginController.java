@@ -1,6 +1,5 @@
 package s4.spring.controllers;
 
-import java.lang.ProcessBuilder.Redirect;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -21,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
 import s4.spring.entities.History;
-import s4.spring.entities.Language;
 import s4.spring.entities.Script;
 import s4.spring.entities.User;
 import s4.spring.repositories.CateroryRepo;
@@ -177,7 +175,7 @@ public class loginController {
 
 			script.setId(nouveauScript.getId());
 			script.setTitle(nouveauScript.getTitle());
-			// script.setUser();
+			script.setUser( (User) session.getAttribute("UtilisateurConnecte"));
 			script.setDescription(nouveauScript.getDescription());
 			script.setContent(nouveauScript.getContent());
 			script.setLanguage(nouveauScript.getLanguage());
@@ -187,7 +185,7 @@ public class loginController {
 			System.out.println("nouveau script");
 		}
 		scriptsRepo.save(script);
-		return new RedirectView("/index");
+		return new RedirectView("index");
 	}
 
 	@GetMapping("script/{id}")
@@ -203,6 +201,8 @@ public class loginController {
 		return "script/new";
 	}
 
+	//supprimer script
+	
 	@GetMapping("script/delete/{id}")
 	public RedirectView delete(@PathVariable int id, Script script) {
 		Optional<Script> opt = scriptsRepo.findById(id);
@@ -213,8 +213,8 @@ public class loginController {
 		return new RedirectView("/index");
 	}
 
-	// ----------------Date---------------------------
-	//fonction transformation date
+	// ----------------fonction transformation date---------------------------
+	
 	private String getDate() {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Date date = new Date();
