@@ -112,7 +112,6 @@ public class loginController {
 	public String afficherScripts(Model model,HttpSession session) {
 		//afficher liste des scripts
 		User user=(User) session.getAttribute("UtilisateurConnecte");
-		
 		model.addAttribute("scripts", user.getScripts());
 		model.addAttribute("langages", languagesRepo.findAll());
 		model.addAttribute("categories", categoriesRepo.findAll());
@@ -124,16 +123,16 @@ public class loginController {
 	public String createScript() {
 		Script s1 = new Script();
 		
-		s1.setTitle("Mon premier script");
+		s1.setTitle("Script echo");
 		s1.setCreationDate("24/03/2019");
-		s1.setDescription("C'est un script d'essai");
-		s1.setContent("oESHDVPZOuhf ncefhnZPEF fhZIZPZGRNCHFFHU");
+		s1.setDescription("comment afficher quelque chose (.bat)");
+		s1.setContent("echo Hello World!");
 		
 		Script s2 = new Script();
-		s2.setTitle("Mon deuxieme script");
-		s2.setCreationDate("24/03/2019");
-		s2.setDescription("C'est un script d'essai");
-		s2.setContent("fzuhoghzrg zeonezofhzeibif viaeubfuigfzegtU");
+		s2.setTitle("$variable");
+		s2.setCreationDate("02/04/2019");
+		s2.setDescription("afficher contenu d'une variable");
+		s2.setContent("echo \"Bienvenue $prenom\";");
 		
 		System.out.println(s1);
 		System.out.println(s2);

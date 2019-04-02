@@ -12,25 +12,20 @@
 	</div></br>
 	<h2>Informations sur vos scripts</h2>
 	<div class="ui container">
-		<table class="ui  green table">
+		<table class="ui green table">
 		  <thead>
-		    <tr><th>Title</th>
-		    <th>Date de creation</th>
-		    <th>Description</th>
-		    <th>Content</th>
-		    <th>Langage</th></tr>
+		    <tr>
+				<th>Title</th>
+				<th>Date de creation</th>
+				<th>Description</th>
+			</tr>
 		  </thead>
-		  
-		  <tbody class="ui center aligned">
+		  <tbody>
 		  {{#scripts}}
 		    <tr>
 		    	<td>{{title}}</td>
 		    	<td>{{creationDate}}</td>
 		    	<td>{{description}}</td>
-		    	<td>{{content}}</td>
-		    	<td>{{langages}}</td>
-
-		    	<td></td><!--afficher tt les langages-->
 		    </tr>	    
 		  {{/scripts}}
 		  </tbody>
@@ -38,3 +33,4 @@
 	</div>
 </div>
 {{>footer}}
+
