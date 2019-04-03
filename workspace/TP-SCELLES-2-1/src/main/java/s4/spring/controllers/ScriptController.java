@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Optional;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,16 +83,21 @@ public class ScriptController {
 	// ajouter un script
 
 	@GetMapping("script/new")
-	public String ajouterScript(Model model) {
-		model.addAttribute("script", new Script());
-		model.addAttribute("languages", languagesRepo.findAll());
-		model.addAttribute("categories", categoriesRepo.findAll());
-		return "script/new";
+	public String ajouterScript(Model model, HttpSession session) {
+		User user = (User) session.getAttribute("UtilisateurConnecte");
+		
+		if (user != null) {
+			model.addAttribute("script", new Script());
+			model.addAttribute("languages", languagesRepo.findAll());
+			model.addAttribute("categories", categoriesRepo.findAll());
+			return "script/new";
+		}else 
+			return "../login";
 	}
 
 	@PostMapping("script/new")
 	public RedirectView ajouterScript(@ModelAttribute("script") Script script, @RequestParam int categoryId,
-			@RequestParam int laguageid, Model model, HttpSession session) {
+			@RequestParam int laguageId, Model model, HttpSession session) {
 		System.out.println(script); // affichage pour debug
 		
 		
@@ -100,28 +106,27 @@ public class ScriptController {
 		Script sc = new Script(); // nouveau script
 
 		sc.setTitle(script.getTitle());
-		sc.setUser((User) session.getAttribute("UtilisateurConnecte"));
 		sc.setDescription(script.getDescription());
 		sc.setContent(script.getContent());
-		sc.setLanguage(script.getLanguage());
+		
+		sc.setLanguage(languagesRepo.findById(laguageId));
 		sc.setCategory(categoriesRepo.findById(categoryId));
 		sc.setCreationDate(getDate());
 		
+		User user = (User) session.getAttribute("UtilisateurConnecte");
+		sc.setUser(user);
 		
-		if (opt.isPresent()) {
-			System.out.println("script deja existant ");
-			script = opt.get(); // creation version a sauvegarder
-			History history = new History();
-			history.setScripts(script);
-			history.setContent(script.getContent());
-			history.setDate(getDate());
-			historiesRepo.save(history);
-		} else {
-			
-
-			System.out.println("ajout nouveau script");
-		}
 		scriptsRepo.save(sc);
+		
+		//creation historique
+		script = opt.get(); 
+		History history = new History();
+		history.setScripts(sc);
+		history.setComment(script.getDescription());
+		history.setContent(script.getContent());
+		history.setDate(getDate());
+		historiesRepo.save(history);
+		
 		return new RedirectView("index");
 	}
 

@@ -1,57 +1,61 @@
 {{>header}}
 <div class="ui container">
-	</br><h1>TP SpringBoot Laura Scelles 2.1</h1>
-	
-	<div class="ui top attached tabular menu">
-	  <a class="ui item" href="../index"> Accueil </a>
-	  <a class="ui item" href="../script">Liste scripts</a>
-	  <div class="right menu">
-	  	<a class="ui active item " href="new">Ajouter un script</a>
-	    <a class="ui item" href="/logout">Deconnexion</a>
-	  </div>
-	</div>
+</br><h1>TP SpringBoot Laura Scelles 2.1</h1>
+
+<div class="ui top attached tabular menu">
+  <a class="ui item" href="../index"> Accueil </a>
+  <a class="ui item" href="../script">Liste scripts</a>
+  <div class="right menu">
+	<a class="ui active item " href="new">Ajouter un script</a>
+	<a class="ui item" href="/logout">Deconnexion</a>
+  </div>
+</div>
 </div>	
+
+<form class="ui form" modelAttribute="script" method="POST">		
 	
-<form class="ui form" modelAttribute="nouveauScript" method="POST" action="submit">		
-		
-		<div class="two fields">
-		    <div class="field">
-		      <label>Title</label>
-		      <input placeholder="Mon script" type="text" name="title"  required></input>
-		    </div>
-		    <div class="field">
-		      <label>Date de creation</label>
-		      <input type="date" name="creationDate"  required></input>
-		    </div>
+<div class="two fields">
+	 <div class="field">
+	 <label>Title</label>
+	   <input placeholder="Title" type="text" name="title"  required></input>
+	 </div>
+	 <div class="field">
+	  <label>Date de creation</label>
+	   <input type="date" name="creationDate"  required></input>
+		</div>
+	 </div>
+	 
+	 <div class="field">
+		 <label>Description</label>
+		<textarea placeholder="..." rows="2" name="description" path="description" ></textarea>
+	 </div>
+	 
+	 <div class="field">
+		 <label>Content</label>
+		 <textarea placeholder="..." rows="10" name="content" path="content"></textarea>
+	 </div>
+	 
+	 <div class="two fields">
+		 <div class=" field">
+		 <label>Language</label>
+			 <select class="ui fluid dropdown" name="language" path="laguageId" required>
+				 <option value="" selected>Languages</option>
+				 {{#languages}}
+					<option value="{{id}}">{{name}}</option>
+				 {{/languages}}
+			 </select>
 		 </div>
-		 <div class="field">
-		     <label>Description</label>
-		    <textarea placeholder="..." rows="2" name="description" ></textarea>
+		 <div class=" field">
+			 <label>Category</label>
+			 <select class="ui fluid dropdown" name="category" path="categoryId" required>
+				 <option value="" selected>Categories</option>
+				 {{#categories}}
+					<option value="{{id}}">{{name}}</option>
+				 {{/categories}}
+			 </select>
 		 </div>
-		 <div class="field">
-		     <label>Content</label>
-		     <textarea placeholder="..." rows="10" name="content" ></textarea>
-		 </div>
-		 <div class="two fields">
-			 <div class=" field">
-			 <label>Language</label>
-			     <select class="ui dropdown" name="language" required>
-				     <option selected></option>
-				     {{#languages}}
-				     <option>{{name}}</option>
-				 	 {{/languages}}
-			 	 </select>
-			 </div>
-			 <div class=" field">
-			     <label>Category</label>
-			     <select class="ui dropdown" name="category" required>
-				     <option selected></option>
-				     {{#categories}}
-				     <option>{{name}}</option>
-				 	 {{/categories}}
-			 	 </select>
-			 </div>
-		 </div>	 
-		<button class="ui posotive button" type="submit">Ajouter</button>
+	 </div>	 
+	<a class="ui negative button" href="../index">Annuler</a>
+	<button class="ui positive button" type="submit">Ajouter</button>
 </form>
 {{>footer}}
