@@ -17,20 +17,20 @@
 		<div class="two fields">
 		    <div class="field">
 		      <label>Title</label>
-		      <input placeholder="Mon script" type="text" name="title"  required></input>
+		      <input placeholder="Mon script" type="text" name="title" value={{script.title}} required></input>
 		    </div>
 		    <div class="field">
 		      <label>Date de creation</label>
-		      <input type="date" name="creationDate"  required></input>
+		      <input type="date" name="creationDate" value={{script.creationDate}} required></input>
 		    </div>
 		 </div>
 		 <div class="field">
 		     <label>Description</label>
-		    <textarea placeholder="..." rows="2" name="description" ></textarea>
+		    <textarea placeholder="..." rows="2" name="description" value={{script.description}} ></textarea>
 		 </div>
 		 <div class="field">
 		     <label>Content</label>
-		     <textarea placeholder="..." rows="10" name="content" ></textarea>
+		     <textarea placeholder="..." rows="10" name="content" value={{script.content}} ></textarea>
 		 </div>
 		 <div class="two fields">
 			 <div class=" field">

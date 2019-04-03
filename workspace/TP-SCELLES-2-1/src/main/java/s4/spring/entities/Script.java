@@ -3,6 +3,7 @@ package s4.spring.entities;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -30,18 +31,11 @@ public class Script {
 	@ManyToOne
 	private User user;
 
-	@OneToMany
+	@OneToMany(mappedBy = "script", cascade = CascadeType.ALL)
 	private List<History> history;
 
 	@ManyToOne
 	private Category categorie;
-
-	@Override
-	public String toString() {
-		return "Script n°" + id + ", user = " + user + ", langage = " + language + ", categorie = " + categorie
-				+ ", date de creation = " + creationDate + ", title = " + title + ", history = " + history
-				+ ", description = " + description + ", content = " + content;
-	}
 
 	// ---------------------------------------------------------
 
@@ -115,5 +109,17 @@ public class Script {
 	public void setUser(User user) {
 		this.user = user;
 	}
+	
+	//-------------------
+	public void ajouter(History historique) {
+		history.add(historique);		
+	}
 
+	// -------------------
+	@Override
+	public String toString() {
+		return "Script n°" + id + ", user = " + user + ", langage = " + language + ", categorie = " + categorie
+				+ ", date de creation = " + creationDate + ", title = " + title + ", history = " + history
+				+ ", description = " + description + ", content = " + content;
+	}
 }
