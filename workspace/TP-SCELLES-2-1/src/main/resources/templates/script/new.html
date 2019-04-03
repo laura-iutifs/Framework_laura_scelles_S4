@@ -10,52 +10,56 @@
 	<a class="ui item" href="/logout">Deconnexion</a>
   </div>
 </div>
-</div>	
 
-<form class="ui form" modelAttribute="script" method="POST">		
-	
-<div class="two fields">
-	 <div class="field">
-	 <label>Title</label>
-	   <input placeholder="Title" type="text" name="title"  required></input>
-	 </div>
-	 <div class="field">
-	  <label>Date de creation</label>
-	   <input type="date" name="creationDate"  required></input>
+	<div class="ui container">
+	<form class="ui form" modelAttribute="script" method="POST" action="/script/submit">		
+		<div class="two fields">
+		
+			<div class="field">
+				 <label>Title</label>
+				<input placeholder="Title" type="text" name="title" required ></input>
+			 </div>
+			 
+			 <div class="field">
+				 <label>ID</label>
+				<input placeholder="ID" type="number" name="id" required ></input>
+			 </div>
+			 
 		</div>
-	 </div>
-	 
-	 <div class="field">
-		 <label>Description</label>
-		<textarea placeholder="..." rows="2" name="description" path="description" ></textarea>
-	 </div>
-	 
-	 <div class="field">
-		 <label>Content</label>
-		 <textarea placeholder="..." rows="10" name="content" path="content"></textarea>
-	 </div>
-	 
-	 <div class="two fields">
-		 <div class=" field">
-		 <label>Language</label>
-			 <select class="ui fluid dropdown" name="languageId" path="languageId" required>
-				 <option value="" selected>Languages</option>
-				 {{#languages}}
-					<option value="{{id}}">{{name}}</option>
-				 {{/languages}}
-			 </select>
+		 
+		 <div class="field">
+			 <label>Description</label>
+			<input type="text" name="description"  placeholder="description" required ></textarea>
 		 </div>
-		 <div class=" field">
-			 <label>Category</label>
-			 <select class="ui fluid dropdown" name="categoryId" path="categoryId" required>
-				 <option value="" selected>Categories</option>
-				 {{#categories}}
-					<option value="{{id}}">{{name}}</option>
-				 {{/categories}}
-			 </select>
+		 
+		 <div class="field">
+			 <label>Content</label>
+			 <textarea rows="10" name="content" placeholder="content" required ></textarea>
 		 </div>
-	 </div>	 
-	<a class="ui negative button" href="../../script">Annuler</a>
-	<button class="ui positive button" type="submit">Ajouter</button>
-</form>
+		 
+		 <div class="two fields">
+		 
+			 <div class="field">
+				<label>Language</label>
+				 <select name="language" required>
+					 {{#languages}}
+						<option value="{{id}}">{{name}}</option>
+					 {{/languages}}
+				 </select>
+			 </div>
+			 <div class="field">
+				 <label>Category</label>
+				 <select name="category" required>
+					 {{#categories}}
+						<option value="{{id}}">{{name}}</option>
+					 {{/categories}}
+				 </select>
+			 </div>
+			 
+		 </div>	 
+		<a class="ui negative button" href="../../script">Annuler</a>
+		<button class="ui positive button" type="submit">Ajouter</button>
+	</form>
+	</div>	
+</div>	
 {{>footer}}

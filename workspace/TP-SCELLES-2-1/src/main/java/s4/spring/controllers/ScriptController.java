@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -48,7 +49,7 @@ public class ScriptController {
 
 	// -----------------SCRIPT----------------------------
 	@GetMapping("script")
-	public String afficherScripts(Model model, HttpSession session) {
+	public String afficherScripts(ModelMap model, HttpSession session) {
 		// afficher liste des scripts
 		User user = (User) session.getAttribute("UtilisateurConnecte");
 		if (user != null) {
@@ -88,7 +89,7 @@ public class ScriptController {
 	// ajouter un script
 
 	@GetMapping("script/new")
-	public String ajouterScript(Model model, HttpSession session) {
+	public String ajouterScript(ModelMap model, HttpSession session) {
 		User user = (User) session.getAttribute("UtilisateurConnecte");
 
 		if (user != null) {
@@ -97,70 +98,54 @@ public class ScriptController {
 			model.addAttribute("categories", categoriesRepo.findAll());
 			return "script/new";
 		} else
-			return "../login";
+			return "login";
 	}
 
 	@PostMapping("script/submit")
-	public RedirectView ajouterScript(@RequestParam("id") int id, @RequestParam("title") String title,
-			@RequestParam("description") String description, @RequestParam("content") String content,
-			@RequestParam("category") int categorie, @RequestParam("language") int language, HttpSession session) {
+	public RedirectView ajouterScript(
+			@RequestParam("id") int id, 
+			@RequestParam("title") String title,
+			@RequestParam("description") String description, 
+			@RequestParam("content") String content,
+			@RequestParam("category") int categorie, 
+			@RequestParam("language") int language, 
+			HttpSession session) {
+
 		User user = (User) session.getAttribute("UtilisateurConnecte");
+		Optional<Script> opt = scriptsRepo.findById(id);
 
-		Script script;
-		if (id == 0) {
-			script = new Script();
-			script.setUser(user);
-			script.setCreationDate(getDate());
-		} else {
-			script = scriptsRepo.findOneById(id);
+		Script nScript;
+		if (opt.isPresent()) {//on le cherche
+
+			nScript = scriptsRepo.findOneById(id);
+			System.out.println("debug ajouterScript __ " + opt);// debug
+
+			// ajout historique
+			History hist = new History();
+			hist.setScripts(nScript);
+			hist.setContent(nScript.getContent());
+			hist.setDate(getDate());
+			historiesRepo.save(hist);
+
+		} else {//on le creer
+			nScript = new Script();
+
+			// creation nouveau script
+			nScript.setUser(user);
+			nScript.setCreationDate(getDate());
+			nScript.setTitle(title);
+			nScript.setDescription(description);
+			nScript.setContent(content);
+			nScript.setCategory(categoriesRepo.findOneById(categorie));
+			nScript.setLanguage(languagesRepo.findOneById(language));
+			nScript.setUser((User) session.getAttribute("UtilisateurConnecte"));
 		}
-
-		script.setTitle(title);
-		script.setDescription(description);
-		script.setContent(content);
-		script.setCategory(categoriesRepo.findOneById(categorie));
-		script.setLanguage(languagesRepo.findOneById(language));
-
-		scriptsRepo.save(script);
-
+		scriptsRepo.save(nScript); //enregistrer
 		return new RedirectView("/script");
 	}
 
-	@PostMapping("script/new")
-	public RedirectView ajouterScript(@ModelAttribute("script") Script script, @RequestParam int categoryId,
-			@RequestParam int languageId, Model model, HttpSession session) {
-		System.out.println(script); // affichage pour debug
-		System.out.println(categoryId);
-		System.out.println(languageId);
-
-		Script sc = new Script(); // nouveau script
-
-		sc.setTitle(script.getTitle());
-		sc.setDescription(script.getDescription());
-		sc.setContent(script.getContent());
-
-		sc.setLanguage(languagesRepo.findOneById(languageId));
-		sc.setCategory(categoriesRepo.findOneById(categoryId));
-		sc.setCreationDate(getDate());
-
-		User user = (User) session.getAttribute("UtilisateurConnecte");
-		sc.setUser(user);
-
-		scriptsRepo.save(sc);
-
-		// creation historique
-		History history = new History();
-		history.setScripts(sc);
-		history.setComment(script.getDescription());
-		history.setContent(script.getContent());
-		history.setDate(getDate());
-		historiesRepo.save(history);
-
-		return new RedirectView("index");
-	}
-
 	@GetMapping("script/edit/{id}")
-	public String modifier(@PathVariable int id, Model model, Script script) {
+	public String modifier(@PathVariable int id, ModelMap model) {
 
 		Optional<Script> opt = scriptsRepo.findById(id);
 		if (opt.isPresent()) {
@@ -168,16 +153,30 @@ public class ScriptController {
 			// System.out.println(sc.toString());
 			Script newS = opt.get();
 			model.addAttribute("script", newS);
-		}
-		model.addAttribute("languages", languagesRepo.findAll());
-		model.addAttribute("categories", categoriesRepo.findAll());
 
-		return "script/edit";
+			List<Category> categories = categoriesRepo.findAll();
+			List<Language> languages = languagesRepo.findAll();
+
+			Category cateSelected = newS.getCategory();
+			categories.remove(cateSelected);
+			model.addAttribute("cateSelected", cateSelected);
+
+			Language langselected = newS.getLanguage();
+			languages.remove(langselected);
+			model.addAttribute("langselected", langselected);
+
+			model.addAttribute("categories", categories);
+			model.addAttribute("languages", languages);
+
+			return "script/edit";
+		}
+		return "index";
+
 	}
 
 	@PostMapping("script/edit/{id}")
 	public String modifier(@ModelAttribute("script") Script script, @PathVariable int id, @RequestParam int categoryId,
-			@RequestParam int languageId, @RequestParam String comment, Model model) {
+			@RequestParam int languageId, @RequestParam String comment, ModelMap model) {
 
 		Optional<Script> opt = scriptsRepo.findById(id);
 		if (opt.isPresent()) {
