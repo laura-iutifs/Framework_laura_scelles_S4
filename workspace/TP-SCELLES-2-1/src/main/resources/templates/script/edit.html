@@ -10,48 +10,54 @@
 	    <a class="ui item" href="/logout">Deconnexion</a>
 	  </div>
 	</div>
-</div>	
+
 	
-<form class="ui form" modelAttribute="nouveauScript" method="POST" action="submit">		
+	<form class="ui form" modelAttribute="script" method="POST">		
 		
 		<div class="two fields">
 		    <div class="field">
 		      <label>Title</label>
-		      <input placeholder="Mon script" type="text" name="title" value={{script.title}} required></input>
+		      <input placeholder="Mon script" type="text" name="title" path="title" value={{script.title}} required></input>
 		    </div>
 		    <div class="field">
 		      <label>Date de creation</label>
-		      <input type="date" name="creationDate" value={{script.creationDate}} required></input>
+		      <input type="date" path="creationDate" name="creationDate" value={{script.creationDate}} required></input>
 		    </div>
 		 </div>
+		 
 		 <div class="field">
 		     <label>Description</label>
-		    <textarea placeholder="..." rows="2" name="description" value={{script.description}} ></textarea>
+		    <textarea placeholder="..." rows="2" name="description" path="description" value={{script.description}} ></textarea>
 		 </div>
+		 
 		 <div class="field">
 		     <label>Content</label>
-		     <textarea placeholder="..." rows="10" name="content" value={{script.content}} ></textarea>
+		     <textarea placeholder="..." rows="10" name="content" path="content" value={{script.content}} ></textarea>
 		 </div>
 		 <div class="two fields">
+		 
 			 <div class=" field">
-			 <label>Language</label>
-			     <select class="ui dropdown" name="language" required>
-				     <option selected></option>
+				 <label>Language</label>
+			     <select class="ui fluid dropdown" path="languageId" name="language" required>
+				     <option value="{{script.language.id}}" selected>{{script.language.name}}</option>
 				     {{#languages}}
-				     <option>{{name}}</option>
+				     <option value="{{id}}">{{name}}</option>
 				 	 {{/languages}}
 			 	 </select>
 			 </div>
+			 
 			 <div class=" field">
 			     <label>Category</label>
-			     <select class="ui dropdown" name="category" required>
-				     <option selected></option>
+			     <select class="ui fluid dropdown" path="categoryId" name="category" required>
+				     <option value="{{script.categorie.id}}" selected>{{script.categorie.name}}</option>
 				     {{#categories}}
-				     <option>{{name}}</option>
+				     <option value="{{id}}">{{name}}</option>
 				 	 {{/categories}}
 			 	 </select>
 			 </div>
 		 </div>	 
+		<a class="ui negative button" href="../../script">Annuler</a>
 		<button class="ui posotive button" type="submit">Ajouter</button>
-</form>
+	</form>
+</div>
 {{>footer}}

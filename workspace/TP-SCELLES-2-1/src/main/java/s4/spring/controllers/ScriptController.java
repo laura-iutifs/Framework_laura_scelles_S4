@@ -131,7 +131,7 @@ public class ScriptController {
 		return new RedirectView("index");
 	}
 	
-	@GetMapping("script/{id}")
+	@GetMapping("script/edit/{id}")
 	public String modifier(Model model, HttpSession session) {
 		User user = (User) session.getAttribute("UtilisateurConnecte");
 		if (user != null) {
@@ -143,7 +143,7 @@ public class ScriptController {
 	}
 	
 	
-	@PostMapping("script/{id}")
+	@PostMapping("script/edit/{id}")
 	public String modifier(@ModelAttribute("script") Script script, @PathVariable int id, @RequestParam int categoryId,
 			@RequestParam int languageId, @RequestParam String comment, Model model) {
 
@@ -169,7 +169,7 @@ public class ScriptController {
 			
 			scriptsRepo.save(sc);
 		}
-		return "index";
+		return "script/edit";
 	}
 
 	// supprimer script

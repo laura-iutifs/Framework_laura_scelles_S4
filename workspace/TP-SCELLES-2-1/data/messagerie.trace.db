@@ -722,3 +722,7 @@ INSERT INTO "PUBLIC"."SCRIPT"("ID","CONTENT","CREATION_DATE","DESCRIPTION","TITL
 org.h2.jdbc.JdbcSQLException: Erreur lors de la conversion de données "'' (SCRIPT: CATEGORIE_ID INTEGER)"
 Data conversion error converting "'' (SCRIPT: CATEGORIE_ID INTEGER)"; SQL statement:
 INSERT INTO "PUBLIC"."SCRIPT"("ID","CONTENT","CREATION_DATE","DESCRIPTION","TITLE","CATEGORIE_ID","LANGUAGE_ID","USER_ID")VALUES(?,?,?,?,?,?,?,?) -- (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8) [22018-197]
+2019-04-03 14:03:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Erreur de syntaxe dans linstruction SQL {0}; attendu {1}
+Syntax error in SQL statement {0}; expected {1}; SQL statement:
+delete * FROM SCRIPT where user_id=1 [42001-197]
