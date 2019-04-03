@@ -130,35 +130,64 @@ public class ScriptController {
 
 		return new RedirectView("index");
 	}
-
+	
 	@GetMapping("script/{id}")
-	public String modifier(@PathVariable int id, Model model) {
+	public String modifier(Model model, HttpSession session) {
+		User user = (User) session.getAttribute("UtilisateurConnecte");
+		if (user != null) {
+			model.addAttribute("languages", languagesRepo.findAll());
+			model.addAttribute("categories", categoriesRepo.findAll());
+			return "script/new";
+		}else
+			return "login";
+	}
+	
+	
+	@PostMapping("script/{id}")
+	public String modifier(@ModelAttribute("script") Script script, @PathVariable int id, @RequestParam int categoryId,
+			@RequestParam int languageId, @RequestParam String comment, Model model) {
 
 		Optional<Script> opt = scriptsRepo.findById(id);
 		if (opt.isPresent()) {
-			Script script = opt.get();
-			model.addAttribute("script", script);
+			Script sc = opt.get();
+			model.addAttribute("script", sc);
+			
+			History historique = new History();
+			historique.setComment(comment);
+			historique.setContent(script.getContent());
+			historique.setDate(getDate());
+			historique.setScripts(script);
+			//ajouter au repository
+			historiesRepo.save(historique);
+			
+			//sauvegarder copy script
+			sc.setContent(script.getContent());
+			sc.setLanguage(languagesRepo.findById(languageId));
+			sc.setCategory(categoriesRepo.findById(categoryId));
+			sc.setTitle(script.getTitle());
+			sc.setDescription(script.getDescription());
+			
+			scriptsRepo.save(sc);
 		}
-		model.addAttribute("languages", languagesRepo.findAll());
-		model.addAttribute("categories", categoriesRepo.findAll());
-		return "script/new";
+		return "index";
 	}
 
 	// supprimer script
-	
-	//@GetMapping("script/delete/{id}")
-	//public RedirectView delete(@PathVariable int id, Script script, HttpSession session) {
-		//User user = (User) session.getAttribute("UtilisateurConnecte");
 
-		//if (user != null) {
-		//	scriptsRepo.delete(script);
-		//	return new RedirectView("/index");
-			//TODO trouver pourquoi il faut se deconnecter pour actualiser liste des
-			// scripts
-		//}
-		//	return new RedirectView("/login");
-		
-	//}
+	// @GetMapping("script/delete/{id}")
+	// public RedirectView delete(@PathVariable int id, Script script, HttpSession
+	// session) {
+	// User user = (User) session.getAttribute("UtilisateurConnecte");
+
+	// if (user != null) {
+	// scriptsRepo.delete(script);
+	// return new RedirectView("/index");
+	// TODO trouver pourquoi il faut se deconnecter pour actualiser liste des
+	// scripts
+	// }
+	// return new RedirectView("/login");
+
+	// }
 
 	// ----------------fonction transformation date---------------------------
 
