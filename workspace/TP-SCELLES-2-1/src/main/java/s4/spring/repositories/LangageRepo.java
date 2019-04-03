@@ -7,5 +7,5 @@ import s4.spring.entities.Language;
 
 @Repository
 public interface LangageRepo extends JpaRepository<Language, Integer>{
-	public Language findById(int id);
+	public Language findOneById(int id);
 }

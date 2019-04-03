@@ -15,6 +15,7 @@
 		<table class="ui green table">
 		  <thead>
 		    <tr>
+		    	<th>ID</th>
 				<th>Title</th>
 				<th>Date de creation</th>
 				<th>Description</th>
@@ -24,6 +25,7 @@
 		  <tbody>
 		  {{#scripts}}
 		    <tr>
+		    	<td>{{id}}</td>
 		    	<td>{{title}}</td>
 		    	<td>{{creationDate}}</td>
 		    	<td>{{description}}</td>
@@ -31,8 +33,8 @@
 		    		<a href="script/edit/{{id}}"><button class="circular ui blue icon button">
 					<i class="edit icon"></i></button></a>
 					<!-- -->
-					<!--<a href="script/delete/{{id}}"><button class="circular ui red icon button">
-					<i class="delete icon"></i></button></a>-->
+					<a href="script/delete/{{id}}"><button class="circular ui red icon button">
+					<i class="delete icon"></i></button></a>
 				</td>
 		    </tr>	    
 		  {{/scripts}}

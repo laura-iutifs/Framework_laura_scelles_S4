@@ -11234,3 +11234,828 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:S
 2019-04-03 14:30:01,571 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-04-03 14:30:01,571 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-03 14:30:01,571 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:35:13,088 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:35:13,089 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:35:13,090 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:35:13,098 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:35:13,098 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:35:26,361 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:35:26,361 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:35:26,361 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:35:26,377 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:35:26,377 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:35:41,500 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:35:41,500 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:35:41,503 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:35:41,504 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:35:41,504 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:38:19,769 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:38:19,769 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:38:19,769 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:38:19,776 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:38:19,776 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:38:38,659 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:38:38,659 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:38:38,659 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:38:38,664 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:38:38,664 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:38:43,741 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:38:43,741 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:38:43,742 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:38:43,745 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:38:43,745 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:39:17,294 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:39:17,294 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:39:17,294 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:39:17,294 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:39:17,294 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:39:20,195 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:39:20,195 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:39:20,196 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:39:20,201 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:39:20,201 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:39:24,798 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:39:24,798 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:39:24,798 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:39:24,802 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:39:24,803 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:40:16,274 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:40:16,276 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:40:16,276 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:40:16,285 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:40:16,285 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:40:29,794 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:40:29,794 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:40:29,794 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:40:29,799 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:40:29,799 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:40:33,493 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:40:33,493 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:40:33,493 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:40:33,493 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:40:33,493 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:41:03,213 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:41:03,213 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:41:03,213 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:41:03,213 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:41:03,213 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:41:21,675 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:41:21,675 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:41:21,689 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:41:21,696 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:41:21,698 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:42:11,333 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:11,333 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:42:11,340 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:42:11,343 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:11,343 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:42:15,342 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:15,344 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:42:15,355 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:42:15,362 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:15,362 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:42:31,548 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:31,549 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:42:31,549 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:42:31,549 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:42:31,549 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:43:12,977 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:12,977 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:43:12,977 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:43:12,977 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:12,977 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:43:22,277 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:22,277 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:43:22,277 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:43:22,285 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:22,285 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:43:31,411 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:31,411 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:43:31,417 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:43:31,418 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:31,418 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:43:40,761 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:40,762 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:43:40,763 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:43:40,763 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:40,763 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:43:49,375 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:49,375 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:43:49,379 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:43:49,381 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:49,381 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:43:53,922 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:53,924 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:43:53,924 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:43:53,933 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:43:53,933 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:45:06,799 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:45:06,799 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:45:06,799 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:45:06,810 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:45:06,810 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:47:15,553 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:47:15,558 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:47:15,559 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:47:15,559 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:47:15,559 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:48:24,191 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:48:24,191 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:48:24,191 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:48:24,207 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:48:24,207 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:49:07,557 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:07,557 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:49:07,557 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:49:07,557 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:07,557 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:49:10,278 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:10,278 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:49:10,284 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:49:10,287 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:10,289 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:49:19,180 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:19,180 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:49:19,190 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:49:19,190 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:19,190 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:49:46,467 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:46,467 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:49:46,467 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:49:46,484 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:49:46,484 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:50:00,753 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:50:00,754 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:50:00,760 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:50:00,760 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:50:00,760 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:50:49,454 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:50:49,455 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:50:49,455 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:50:49,455 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:50:49,455 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:50:57,834 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:50:57,834 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:50:57,834 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:50:57,848 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:50:57,849 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:51:13,042 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:51:13,042 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:51:13,042 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:51:13,042 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:51:13,042 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:51:59,647 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:51:59,647 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:51:59,652 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:51:59,652 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:51:59,652 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:52:08,665 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:52:08,665 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:52:08,670 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 14:52:08,673 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:52:08,673 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:53:39,352 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:53:39,352 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:53:39,352 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:53:39,352 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:53:39,352 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:56:06,740 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:56:06,740 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:56:06,740 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:56:06,740 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:56:06,740 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:56:24,009 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:56:24,009 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:56:24,009 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:56:24,009 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:56:24,009 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:59:05,459 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:59:05,459 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:59:05,459 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:59:05,475 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:59:05,475 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:59:14,093 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:59:14,093 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:59:14,093 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:59:14,094 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:59:14,094 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 14:59:55,305 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:59:55,305 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 14:59:55,305 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 14:59:55,305 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 14:59:55,305 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:02:20,212 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:02:20,212 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:02:20,224 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:02:20,233 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:02:20,233 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:03:20,797 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:03:20,798 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:03:20,799 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:03:20,799 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:03:20,799 [Worker-123: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:03:28,715 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:03:28,715 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:03:28,715 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:03:28,715 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:03:28,715 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:03:47,353 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:03:47,353 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:03:47,353 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:03:47,370 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:03:47,370 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:04:29,280 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:04:29,281 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:04:29,281 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:04:29,281 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:04:29,281 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:05:10,020 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:05:10,020 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:05:10,030 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:05:10,033 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:05:10,033 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:06:39,574 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:06:39,575 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:06:39,577 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:06:39,577 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:06:39,577 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:08:54,854 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:08:54,861 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:08:54,861 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:08:54,868 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:08:54,868 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:09:33,044 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:09:33,044 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:09:33,044 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:09:33,054 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:09:33,054 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:09:43,953 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:09:43,953 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:09:43,953 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:09:43,953 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:09:43,953 [Worker-132: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:10:17,971 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:10:17,971 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:10:17,976 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:10:17,980 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:10:17,980 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:10:31,334 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:10:31,335 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:10:31,335 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:10:31,338 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:10:31,338 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:13:02,917 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:13:02,917 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:13:02,924 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:13:02,924 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:13:02,924 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:14:18,064 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:14:18,064 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:14:18,076 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:14:18,078 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:14:18,078 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:14:57,302 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:14:57,303 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:14:57,303 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:14:57,303 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:14:57,303 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:16:01,145 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:16:01,147 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:16:01,147 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:16:01,159 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:16:01,159 [Worker-131: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:16:55,673 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:16:55,676 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:16:55,680 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:16:55,684 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:16:55,684 [Worker-124: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:17:27,352 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:17:27,352 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:17:27,352 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:17:27,352 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:17:27,352 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:18:50,244 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:18:50,244 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:18:50,244 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:18:50,244 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:18:50,244 [Worker-130: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:19:07,872 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:19:07,872 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:19:07,872 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:19:07,872 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:19:07,872 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:19:42,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:19:42,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:19:42,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:19:42,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:19:42,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:20:09,667 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:20:09,667 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:20:09,667 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:20:09,669 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:20:09,669 [Worker-135: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:20:44,061 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:20:44,061 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:20:44,061 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:20:44,061 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:20:44,061 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:21:13,560 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:21:13,560 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:21:13,560 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:21:13,570 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:21:13,571 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:22:32,493 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:22:32,493 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:22:32,493 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:22:32,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:22:32,499 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:25:43,285 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:25:43,288 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:25:43,289 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:25:43,289 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:25:43,289 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:25:54,881 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:25:54,886 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:25:54,886 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:25:54,898 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:25:54,899 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:26:24,408 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:26:24,409 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:26:24,414 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:26:24,420 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:26:24,421 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:26:35,791 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:26:35,791 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:26:35,791 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:26:35,791 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:26:35,791 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:27:40,293 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:27:40,293 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:27:40,293 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:27:40,293 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:27:40,293 [Worker-136: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:27:53,216 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:27:53,216 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:27:53,222 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:27:53,224 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:27:53,224 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:30:33,577 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:30:33,578 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:30:33,581 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:30:33,581 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:30:33,581 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:30:40,428 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:30:40,429 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:30:40,429 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:30:40,429 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:30:40,429 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:30:48,023 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:30:48,024 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:30:48,031 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:30:48,038 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:30:48,039 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:31:15,674 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:31:15,674 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:31:15,674 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:31:15,674 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:31:15,674 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:31:22,627 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:31:22,627 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:31:22,632 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:31:22,637 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:31:22,637 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:32:55,445 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:32:55,445 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:32:55,459 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:32:55,464 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:32:55,464 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:33:06,196 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:33:06,201 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:33:06,203 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:33:06,211 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:33:06,215 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:33:12,566 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:33:12,566 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:33:12,580 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:33:12,582 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:33:12,582 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:34:04,329 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:34:04,329 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:34:04,339 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:34:04,340 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:34:04,340 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:34:14,919 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:34:14,919 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:34:14,926 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:34:14,926 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:34:14,926 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:34:25,540 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:34:25,541 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:34:25,543 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:34:25,547 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:34:25,547 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:36:06,992 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:36:06,994 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:36:06,994 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:36:06,994 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:36:06,994 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:36:10,521 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:36:10,521 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:36:10,527 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:36:10,527 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:36:10,527 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:39:13,263 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:13,263 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:39:13,263 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:39:13,264 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:13,264 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:39:33,104 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:33,104 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:39:33,104 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:39:33,109 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:33,109 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:39:45,910 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:45,910 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:39:45,910 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:39:45,922 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:45,922 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:39:58,074 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:58,074 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:39:58,074 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:39:58,074 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:39:58,074 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:40:19,827 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:40:19,827 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:40:19,827 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:40:19,839 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:40:19,839 [Worker-141: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:40:21,817 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:40:21,817 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:40:21,817 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:40:21,822 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:40:21,822 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:40:32,168 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:40:32,168 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:40:32,168 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:40:32,175 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:40:32,175 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:41:20,676 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:41:20,677 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:41:20,677 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:41:20,680 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:41:20,680 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:41:35,114 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:41:35,114 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:41:35,115 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:41:35,121 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:41:35,122 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:42:24,651 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:42:24,660 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:42:24,660 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:42:24,660 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:42:24,660 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:42:40,146 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:42:40,146 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:42:40,146 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 15:42:40,153 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:42:40,153 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:43:15,817 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:43:15,818 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:43:15,818 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:43:15,820 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:43:15,820 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:43:21,888 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:43:21,888 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:43:21,889 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:43:21,889 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:43:21,889 [Worker-138: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:44:59,727 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:44:59,727 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:44:59,727 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:44:59,733 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:44:59,733 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:45:03,122 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:45:03,122 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:45:03,122 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:45:03,122 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:45:03,122 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:45:30,534 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:45:30,535 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:45:30,535 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:45:30,537 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:45:30,537 [Worker-137: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:56:59,113 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:56:59,113 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:56:59,113 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:56:59,128 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:56:59,128 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:57:17,638 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:17,638 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:57:17,638 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:57:17,654 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:17,654 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:57:23,590 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:23,590 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:57:23,590 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:57:23,590 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:23,590 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:57:29,291 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:29,291 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:57:29,291 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:57:29,307 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:29,307 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:57:51,660 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:51,676 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:57:51,676 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:57:51,676 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:57:51,676 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:58:05,157 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:05,157 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:58:05,157 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:58:05,173 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:05,173 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:58:20,279 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:20,279 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:58:20,279 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:58:20,294 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:20,294 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:58:35,641 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:35,641 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:58:35,641 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:58:35,656 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:35,656 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:58:43,197 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:43,197 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:58:43,197 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:58:43,212 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:58:43,212 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:59:18,145 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:59:18,145 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:59:18,145 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:59:18,160 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:59:18,160 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 15:59:29,636 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:59:29,636 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 15:59:29,636 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 15:59:29,636 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 15:59:29,636 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:07:25,921 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:07:25,921 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:07:25,921 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:07:25,936 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:07:25,936 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:07:37,168 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:07:37,168 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:07:37,168 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:07:37,183 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:07:37,183 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:08:07,317 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:08:07,333 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:08:07,333 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:08:07,333 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:08:07,333 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:08:10,160 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:08:10,160 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:08:10,160 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:08:10,160 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:08:10,160 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:09:34,450 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:09:34,450 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:09:34,450 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:09:34,465 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:09:34,465 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:12:21,885 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:21,885 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:12:21,885 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:12:21,900 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:21,900 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:12:31,779 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:31,779 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:12:31,779 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:12:31,779 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:31,779 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:12:41,170 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:41,170 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:12:41,170 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:12:41,170 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:41,170 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:12:44,497 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:44,497 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:12:44,497 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:12:44,497 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:12:44,497 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:17:38,249 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:17:38,249 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:17:38,249 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:17:38,249 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:17:38,249 [Worker-145: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:25:03,605 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:25:03,605 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:25:03,605 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:25:03,620 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:25:03,620 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:25:31,730 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:25:31,730 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:25:31,730 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:25:31,745 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:25:31,745 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:26:56,709 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:26:56,709 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:26:56,709 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:26:56,709 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:26:56,709 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:30:01,504 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:01,535 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:30:01,550 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:30:01,550 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:01,550 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:30:20,511 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:20,511 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:30:20,511 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:30:20,511 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:20,511 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:30:24,265 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:24,265 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:30:24,265 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:30:24,273 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:24,273 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:30:34,432 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:34,432 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:30:34,447 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:30:34,447 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:30:34,447 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:31:11,250 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:31:11,250 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:31:11,250 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:31:11,250 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:31:11,250 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:31:30,491 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:31:30,491 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:31:30,491 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:31:30,491 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:31:30,491 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:31:48,633 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:31:48,633 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:31:48,633 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:31:48,633 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:31:48,633 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:32:14,113 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:32:14,128 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:32:14,128 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:32:14,128 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:32:14,128 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:33:10,059 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:10,059 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:33:10,059 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:33:10,059 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:10,059 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:33:26,694 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:26,694 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:33:26,694 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:33:26,694 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:26,694 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:33:36,058 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:36,058 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:33:36,058 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:33:36,058 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:36,058 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:33:57,834 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:57,834 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:33:57,834 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:33:57,834 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:33:57,834 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:34:05,867 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:34:05,867 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:34:05,867 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:34:05,867 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:34:05,867 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:34:18,806 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:34:18,806 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:34:18,806 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:34:18,806 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:34:18,806 [Worker-159: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:34:52,619 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:34:52,619 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:34:52,635 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:34:52,635 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:34:52,635 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:01,441 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:01,441 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:01,441 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:01,441 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:01,441 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:14,628 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:14,628 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:14,628 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:14,643 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:14,643 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:24,370 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:24,370 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:24,370 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:24,370 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:24,385 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:27,618 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:27,618 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:27,618 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:27,618 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:27,618 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:30,683 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:30,683 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:30,683 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:30,683 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:30,683 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:35,476 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:35,476 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:35,476 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:35,476 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:35,476 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:35:51,655 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:51,655 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:35:51,655 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:35:51,655 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:35:51,655 [Worker-163: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:36:11,212 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:36:11,212 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:36:11,212 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:36:11,212 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:36:11,212 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:36:35,636 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:36:35,636 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:36:35,636 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:36:35,636 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:36:35,636 [Worker-162: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:36:57,881 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:36:57,881 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:36:57,881 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:36:57,897 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:36:57,897 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:37:08,998 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:08,998 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:37:08,998 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:37:08,998 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:08,998 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:37:13,695 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:13,695 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:37:13,695 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:37:13,695 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:13,695 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:37:34,099 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:34,099 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:37:34,099 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:37:34,099 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:34,099 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:37:43,763 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:43,763 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:37:43,763 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:37:43,778 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:37:43,778 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:38:07,463 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:38:07,463 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:38:07,463 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:38:07,463 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:38:07,463 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:38:16,171 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:38:16,171 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:38:16,171 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:38:16,171 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:38:16,171 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:39:37,250 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:39:37,250 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:39:37,250 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:39:37,266 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:39:37,266 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:39:54,054 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:39:54,054 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:39:54,054 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:39:54,054 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:39:54,054 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:40:02,880 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:02,880 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:40:02,880 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:40:02,880 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:02,880 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:40:12,802 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:12,802 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:40:12,802 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:40:12,802 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:12,802 [Worker-161: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:40:41,037 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:41,037 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:40:41,037 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:40:41,037 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:41,037 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:40:56,500 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:56,500 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:40:56,500 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:40:56,500 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:40:56,500 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:41:02,972 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:41:02,972 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:41:02,972 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2019-04-03 16:41:02,972 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:41:02,972 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources
+2019-04-03 16:41:13,528 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:41:13,528 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-03 16:41:13,528 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-03 16:41:13,543 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-03 16:41:13,543 [Worker-160: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Laura\cours\Parcours2\framework-web\Framework_laura_scelles_S4\workspace\TP-SCELLES-2-1\src\test\resources

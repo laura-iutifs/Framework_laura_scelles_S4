@@ -3,9 +3,9 @@ package s4.spring.controllers;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Optional;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.view.RedirectView;
 
+import s4.spring.entities.Category;
 import s4.spring.entities.History;
+import s4.spring.entities.Language;
 import s4.spring.entities.Script;
 import s4.spring.entities.User;
 import s4.spring.repositories.CateroryRepo;
@@ -98,6 +100,32 @@ public class ScriptController {
 			return "../login";
 	}
 
+	@PostMapping("script/submit")
+	public RedirectView ajouterScript(@RequestParam("id") int id, @RequestParam("title") String title,
+			@RequestParam("description") String description, @RequestParam("content") String content,
+			@RequestParam("category") int categorie, @RequestParam("language") int language, HttpSession session) {
+		User user = (User) session.getAttribute("UtilisateurConnecte");
+
+		Script script;
+		if (id == 0) {
+			script = new Script();
+			script.setUser(user);
+			script.setCreationDate(getDate());
+		} else {
+			script = scriptsRepo.findOneById(id);
+		}
+
+		script.setTitle(title);
+		script.setDescription(description);
+		script.setContent(content);
+		script.setCategory(categoriesRepo.findOneById(categorie));
+		script.setLanguage(languagesRepo.findOneById(language));
+
+		scriptsRepo.save(script);
+
+		return new RedirectView("/script");
+	}
+
 	@PostMapping("script/new")
 	public RedirectView ajouterScript(@ModelAttribute("script") Script script, @RequestParam int categoryId,
 			@RequestParam int languageId, Model model, HttpSession session) {
@@ -111,8 +139,8 @@ public class ScriptController {
 		sc.setDescription(script.getDescription());
 		sc.setContent(script.getContent());
 
-		sc.setLanguage(languagesRepo.findById(languageId));
-		sc.setCategory(categoriesRepo.findById(categoryId));
+		sc.setLanguage(languagesRepo.findOneById(languageId));
+		sc.setCategory(categoriesRepo.findOneById(categoryId));
 		sc.setCreationDate(getDate());
 
 		User user = (User) session.getAttribute("UtilisateurConnecte");
@@ -130,19 +158,23 @@ public class ScriptController {
 
 		return new RedirectView("index");
 	}
-	
+
 	@GetMapping("script/edit/{id}")
-	public String modifier(Model model, HttpSession session) {
-		User user = (User) session.getAttribute("UtilisateurConnecte");
-		if (user != null) {
-			model.addAttribute("languages", languagesRepo.findAll());
-			model.addAttribute("categories", categoriesRepo.findAll());
-			return "script/new";
-		}else
-			return "login";
+	public String modifier(@PathVariable int id, Model model, Script script) {
+
+		Optional<Script> opt = scriptsRepo.findById(id);
+		if (opt.isPresent()) {
+			// debug
+			// System.out.println(sc.toString());
+			Script newS = opt.get();
+			model.addAttribute("script", newS);
+		}
+		model.addAttribute("languages", languagesRepo.findAll());
+		model.addAttribute("categories", categoriesRepo.findAll());
+
+		return "script/edit";
 	}
-	
-	
+
 	@PostMapping("script/edit/{id}")
 	public String modifier(@ModelAttribute("script") Script script, @PathVariable int id, @RequestParam int categoryId,
 			@RequestParam int languageId, @RequestParam String comment, Model model) {
@@ -151,22 +183,22 @@ public class ScriptController {
 		if (opt.isPresent()) {
 			Script sc = opt.get();
 			model.addAttribute("script", sc);
-			
+
 			History historique = new History();
 			historique.setComment(comment);
 			historique.setContent(script.getContent());
 			historique.setDate(getDate());
 			historique.setScripts(script);
-			//ajouter au repository
+			// ajouter au repository
 			historiesRepo.save(historique);
-			
-			//sauvegarder copy script
+
+			// sauvegarder copy script
 			sc.setContent(script.getContent());
-			sc.setLanguage(languagesRepo.findById(languageId));
-			sc.setCategory(categoriesRepo.findById(categoryId));
+			sc.setLanguage(languagesRepo.findOneById(languageId));
+			sc.setCategory(categoriesRepo.findOneById(categoryId));
 			sc.setTitle(script.getTitle());
 			sc.setDescription(script.getDescription());
-			
+
 			scriptsRepo.save(sc);
 		}
 		return "script/edit";
@@ -174,20 +206,12 @@ public class ScriptController {
 
 	// supprimer script
 
-	// @GetMapping("script/delete/{id}")
-	// public RedirectView delete(@PathVariable int id, Script script, HttpSession
-	// session) {
-	// User user = (User) session.getAttribute("UtilisateurConnecte");
-
-	// if (user != null) {
-	// scriptsRepo.delete(script);
-	// return new RedirectView("/index");
-	// TODO trouver pourquoi il faut se deconnecter pour actualiser liste des
-	// scripts
-	// }
-	// return new RedirectView("/login");
-
-	// }
+	@GetMapping("script/delete/{id}")
+	public RedirectView delete(@PathVariable int id) {
+		Script script = scriptsRepo.findOneById(id);
+		scriptsRepo.delete(script);
+		return new RedirectView("/index");
+	}
 
 	// ----------------fonction transformation date---------------------------
 

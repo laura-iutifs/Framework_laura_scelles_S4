@@ -5,7 +5,38 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-04-03T00:00:00Z</updated>
+  <updated>2019-04-03T13:13:00Z</updated>
+  <entry>
+    <title>Spring Boot 1.5.20 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-boot-1-5-20-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2019-04-03:3625</id>
+    <updated>2019-04-03T13:13:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Boot 1.5.20 has been released and is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central.&lt;/p&gt;
+&lt;p&gt;Spring Boot 1.5.20 is a maintenance release that includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v1.5.20.RELEASE"&gt;over 30 dependency updates and selected bug fixes&lt;/a&gt;. These upgrades include Spring Security OAuth 2.0.17 which addresses a &lt;a href="https://spring.io/blog/2019/02/21/cve-2019-3778-spring-security-oauth-2-3-5-2-2-4-2-1-4-2-0-17-released"&gt;recently announced CVE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you haven’t already upgraded to Spring Boot 2, please consider doing so as support for 1.x will &lt;a href="https://spring.io/blog/2018/07/30/spring-boot-1-x-eol-aug-1st-2019"&gt;end on August 1st 2019&lt;/a&gt;. &lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.20.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security 5.1.5, 5.0.12, 4.2.12 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-security-5-1-5-5-0-12-4-2-12-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Joe Grandja</name>
+    </author>
+    <id>tag:spring.io,2019-04-03:3624</id>
+    <updated>2019-04-03T13:04:05Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community I am pleased to announce the release of Spring Security 5.1.5 (&lt;a href="https://github.com/spring-projects/spring-security/milestone/140?closed=1"&gt;changelog&lt;/a&gt;), 5.0.12 (&lt;a href="https://github.com/spring-projects/spring-security/milestone/138?closed=1"&gt;changelog&lt;/a&gt;), and 4.2.12 (&lt;a href="https://github.com/spring-projects/spring-security/milestone/139?closed=1"&gt;changelog&lt;/a&gt;). These releases deliver bug fixes along with some minor improvements. Users are encouraged to update to the latest patch release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tips: WebMvc.fn - the functional DSL for Spring MVC</title>
     <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-tips-webmvc-fn-the-functional-dsl-for-spring-mvc" />
@@ -677,41 +708,5 @@ dependencies {
     <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of a Bootiful Podcast! This week &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to &lt;a href="https://twitter.com/joegrandja"&gt;Joe Grandja (@joegrandja)&lt;/a&gt; who, not coincidentally, just celebrated his third anniversary working on the Spring team! Joe has been instrumental in building Spring Security 5.x and its OAuth client and resource-server support.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://spring.io/team/pivotal-joe-grandja"&gt;Joe&amp;rsquo;s team page&lt;/a&gt;&lt;br/&gt;&lt;a href="http://twitter.com/joe_grandja"&gt;Joe on Twitter&lt;/a&gt;&lt;br/&gt;&lt;a href="https://twitter.com/rob_winch/status/1106194606058815490"&gt;Joe just celebrated his third year on the team!&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/589977558%3Fsecret_token%3Ds-GoINo&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Be Lazy AND Fast with Spring Boot 2.2.M1!</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/14/spring-tips-be-lazy-and-fast-with-spring-boot-2-2-m1" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-14:3604</id>
-    <updated>2019-03-14T15:38:38Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to a super quick, intra-season interregnum installment of Spring Tips in which we look at a few features that let you be both lazy AND fast in Spring Boot 2.2! &lt;/p&gt;
-&lt;p&gt;speaker: Josh Long&lt;br/&gt;&lt;a href="http://twitter.com/starbuxman"&gt;@starbuxman&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_m4xpHUf55E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Lazy Initialization in Spring Boot 2.2</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/14/lazy-initialization-in-spring-boot-2-2" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2019-03-08:3601</id>
-    <updated>2019-03-14T11:59:00Z</updated>
-    <content type="html">&lt;p&gt;The &lt;a href="https://spring.io/blog/2019/03/08/spring-boot-2-2-m1"&gt;recently announced&lt;/a&gt; first milestone of Spring Boot 2.2 introduces support for lazy initialization. This post describes the new functionality and explains how and when to enable it.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-does-it-mean-to-be-lazy" class="anchor" name="what-does-it-mean-to-be-lazy"&gt;&lt;/a&gt;What Does it Mean to be Lazy?&lt;/h2&gt;
-&lt;p&gt;Spring Framework has had support for lazy bean initialization since before its source code moved to Git 11 years ago. By default, when an application context is being refreshed, every bean in the context is created and its dependencies are injected. By contrast, when a bean definition is configured to be initialized lazily it will not be created and its dependencies will not be injected until it&amp;rsquo;s needed.&lt;/p&gt;&lt;h2&gt;&lt;a href="#enabling-lazy-initialization" class="anchor" name="enabling-lazy-initialization"&gt;&lt;/a&gt;Enabling Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;It&amp;rsquo;s possible to enable lazy initialization in any version of Spring Boot if you&amp;rsquo;re happy to get your hands dirty and write a &lt;code&gt;BeanFactoryPostProcessor&lt;/code&gt;. Spring Boot 2.2 just makes it easier via the introduction of a new property, &lt;code&gt;spring.main.lazy-initialization&lt;/code&gt; (there are also equivalent methods on both &lt;code&gt;SpringApplication&lt;/code&gt; and &lt;code&gt;SpringApplicationBuilder&lt;/code&gt;). When set to &lt;code&gt;true&lt;/code&gt;, bean definitions in the application will be configured to use lazy initialization.&lt;/p&gt;&lt;h2&gt;&lt;a href="#benefits-of-lazy-initialization" class="anchor" name="benefits-of-lazy-initialization"&gt;&lt;/a&gt;Benefits of Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;Lazy initialization can result in significantly reduced startup times as fewer classes are loaded and fewer beans are created during application startup. For example, a small web application that&amp;rsquo;s using Actuator and Spring Security that normally starts in 2500ms will start in 2000ms with lazy initialization enabled. The exact improvement will vary from application to application depending on the structure of their beans&amp;rsquo; dependency graphs.&lt;/p&gt;&lt;h3&gt;&lt;a href="#what-about-devtools" class="anchor" name="what-about-devtools"&gt;&lt;/a&gt;What About DevTools?&lt;/h3&gt;
-&lt;p&gt;Spring Boot&amp;rsquo;s DevTools already provide a significant boost to developer productivity. Rather than having to restart the JVM and the application each time you want to try out a change, DevTools enables hot restart of your application in the same JVM. A significant benefit of hot restart is that it gives the JIT more of a chance to optimise the code involved in starting your application. After a few restarts, the original time of 2500ms is reduced by almost 80% to nearer 500ms. With lazy initialization, we can do even better. Setting &lt;code&gt;spring.main.lazy-initialization&lt;/code&gt; sees our application restart in 400ms directly in the IDE.&lt;/p&gt;&lt;h2&gt;&lt;a href="#downsides-of-lazy-initialization" class="anchor" name="downsides-of-lazy-initialization"&gt;&lt;/a&gt;Downsides of Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;As we&amp;rsquo;ve seen above, enabling lazy initialization can reduce startup times quite dramatically. You may be tempted to enable it all the time or be wondering why we didn&amp;rsquo;t decide to enable it by default. There are a few downsides to lazy initialization that mean we believe it&amp;rsquo;s better to opt-in once you have decided it makes sense to do so.&lt;/p&gt;
-&lt;p&gt;Due to classes no longer being loaded and beans no longer being created until they&amp;rsquo;re needed, it&amp;rsquo;s possible for lazy initialization to mask a problem that previously would have been identified at startup. Such problems can include no class def found errors, out of memory errors, and failures due to misconfiguration.&lt;/p&gt;
-&lt;p&gt;In a web application lazy initialization can lead to increased latency for HTTP requests that trigger bean initialization. This will typically just be the first request but it may have an adverse effect on load-balancing and auto-scaling.&lt;/p&gt;&lt;h2&gt;&lt;a href="#is-this-thing-switched-on" class="anchor" name="is-this-thing-switched-on"&gt;&lt;/a&gt;Is This Thing Switched On?&lt;/h2&gt;
-&lt;p&gt;If you&amp;rsquo;re not sure what effect lazy initialization is having on your application, or you&amp;rsquo;d like to verify that another framework&amp;rsquo;s behaviour meets your needs and matches their claims, it can be informative to use the debugger. By placing a breakpoint in the constructor of one of your beans you can see when it is being initialized. For example, in a Spring Boot web application with lazy initialization enabled you&amp;rsquo;ll see that &lt;code&gt;@Controller&lt;/code&gt; beans are not created until the first request is made to Spring MVC&amp;rsquo;s &lt;code&gt;DispatcherServlet&lt;/code&gt; or Spring WebFlux&amp;rsquo;s &lt;code&gt;DispatcherHandler&lt;/code&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#when-to-enable-lazy-initialization" class="anchor" name="when-to-enable-lazy-initialization"&gt;&lt;/a&gt;When to Enable Lazy Initialization&lt;/h2&gt;
-&lt;p&gt;As we&amp;rsquo;ve seen above, lazy initialization can offer significant improvements in start up time but there are some notable downsides too and it&amp;rsquo;s important to enable it with care.&lt;/p&gt;
-&lt;p&gt;One area where lazy initialization can be highly beneficial with few, if any, downsides is during development. As you&amp;rsquo;re iterating on an application, the reduced startup times offered by lazy initialization and DevTools&amp;rsquo; hot restarts can dramatically improve your productivity.&lt;/p&gt;
-&lt;p&gt;Another area that can benefit from lazy initialization is your application&amp;rsquo;s integration tests. You may already be using Spring Boot&amp;rsquo;s test slices to reduce test execution time by limiting the number of beans that are initialized in certain types of tests. Lazy initialization provides an alternative mechanism to achieve a similar end result. If you&amp;rsquo;re not in a position to structure your application such that it&amp;rsquo;s amenable to test slicing, or if there isn&amp;rsquo;t a slice available for a particular type of test, enabling lazy initialization will limit the beans that are initialized to those that are needed by the test. This will reduce test execution time, particularly when running a test in isolation during development.&lt;/p&gt;
-&lt;p&gt;Lastly, you may want to consider enabling lazy initialization in production. If you do so, it should be done with care. For web applications, container orchestration may benefit from a &lt;code&gt;/health&lt;/code&gt; endpoint that is able to respond more quickly, but you also need to be aware of the potential for increased latency when the first request is made to one of the application&amp;rsquo;s own endpoints. You should also take care to size your application&amp;rsquo;s JVM with lazy initialization disabled to avoid any unwanted out of memory errors once all of its components have been used.&lt;/p&gt;</content>
   </entry>
 </feed>

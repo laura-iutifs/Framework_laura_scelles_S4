@@ -3,43 +3,46 @@
 	</br><h1>TP SpringBoot Laura Scelles 2.1</h1>
 	
 	<div class="ui top attached tabular menu">
-	  <a class="ui item" href="../index"> Accueil </a>
-	  <a class="ui item" href="../script">Liste scripts</a>
+	  <a class="ui item" href="../../index"> Accueil </a>
+	  <a class="ui item" href="../../script">Liste scripts</a>
 	  <div class="right menu">
 	  	<a class="ui active item " href="new">Ajouter un script</a>
 	    <a class="ui item" href="/logout">Deconnexion</a>
 	  </div>
 	</div>
 
-	
-	<form class="ui form" modelAttribute="script" method="POST">		
+	<form class="ui form" modelAttribute="script" method="POSt">
 		
-		<div class="two fields">
+		<div class="three fields">
 		    <div class="field">
 		      <label>Title</label>
-		      <input placeholder="Mon script" type="text" name="title" path="title" value={{script.title}} required></input>
+		      <input type="text" name="title" placeholder="Title" required value="{{script.title}}"></input>
 		    </div>
 		    <div class="field">
 		      <label>Date de creation</label>
-		      <input type="date" path="creationDate" name="creationDate" value={{script.creationDate}} required></input>
+		      <input type="date" name="creationDate" value={{script.creationDate}} required></input>
 		    </div>
+		    <div class="field">
+		      <label>ID</label>
+		     <input type="text" name="id" value={{script.id}} ></input>
+		    </div>  
 		 </div>
 		 
 		 <div class="field">
 		     <label>Description</label>
-		    <textarea placeholder="..." rows="2" name="description" path="description" value={{script.description}} ></textarea>
+		    <textarea placeholder="..." rows="2" name="description" value={{#script}}{{description}}{{/script}} ></textarea>
 		 </div>
 		 
 		 <div class="field">
 		     <label>Content</label>
-		     <textarea placeholder="..." rows="10" name="content" path="content" value={{script.content}} ></textarea>
+		     <textarea placeholder="..." rows="10" name="content" value={{script.content}} ></textarea>
 		 </div>
 		 <div class="two fields">
 		 
 			 <div class=" field">
 				 <label>Language</label>
-			     <select class="ui fluid dropdown" path="languageId" name="language" required>
-				     <option value="{{script.language.id}}" selected>{{script.language.name}}</option>
+			     <select class="ui fluid dropdown" name="language" required>
+				     <option disabled selected></option>
 				     {{#languages}}
 				     <option value="{{id}}">{{name}}</option>
 				 	 {{/languages}}
@@ -48,16 +51,19 @@
 			 
 			 <div class=" field">
 			     <label>Category</label>
-			     <select class="ui fluid dropdown" path="categoryId" name="category" required>
-				     <option value="{{script.categorie.id}}" selected>{{script.categorie.name}}</option>
+			     <select class="ui fluid dropdown" name="category" required>
+				     <option disabled selected></option>
 				     {{#categories}}
 				     <option value="{{id}}">{{name}}</option>
 				 	 {{/categories}}
 			 	 </select>
 			 </div>
 		 </div>	 
-		<a class="ui negative button" href="../../script">Annuler</a>
-		<button class="ui posotive button" type="submit">Ajouter</button>
+		 
+		 <div class="ui buttons">
+		 	<a class="ui negative button" href="../../script">Annuler les modifications</a>
+			<button class="ui positive button" type="submit">Confirmer les modifications</button>
+		</div>
 	</form>
 </div>
 {{>footer}}

@@ -7,5 +7,5 @@ import s4.spring.entities.Category;
 
 @Repository
 public interface CateroryRepo extends JpaRepository<Category, Integer>{
-	public Category findById(int id);
+	public Category findOneById(int id);
 }
