@@ -5,7 +5,20 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-04-02T06:41:01Z</updated>
+  <updated>2019-04-03T00:00:00Z</updated>
+  <entry>
+    <title>Spring Tips: WebMvc.fn - the functional DSL for Spring MVC</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/03/spring-tips-webmvc-fn-the-functional-dsl-for-spring-mvc" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-03-30:3620</id>
+    <updated>2019-04-03T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of Spring Tips in which I look at the &lt;em&gt;just-landed-on-master&lt;/em&gt; WebMvc.fn programming model in Spring MVC. WebMvc.fn is the functional DSL for Spring MVC that, I&amp;rsquo;ll bet, you didn&amp;rsquo;t know you wanted! This is &lt;em&gt;awesome&lt;/em&gt;! &lt;/p&gt;
+&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/HchLroLIhuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - April 2nd, 2019</title>
     <link rel="alternate" href="https://spring.io/blog/2019/04/02/this-week-in-spring-april-2nd-2019" />
@@ -35,6 +48,50 @@
   &lt;li&gt;Missed this white-hot Spring Tip introducing ways to make Spring Boot lazy &lt;em&gt;and&lt;/em&gt; fast? &lt;a href="https://twitter.com/springcentral/status/1110982329655283713"&gt;Now&amp;rsquo;s the time to watch&lt;/a&gt;! It&amp;rsquo;s not even ten minute&amp;rsquo;s long!&lt;/li&gt;
   &lt;li&gt;We&amp;rsquo;re conducting a survey that looks at how we can improve the &lt;a href="http://start.Spring.io"&gt;Spring Initializr (start dot Spring dot io)&lt;/a&gt;, a topic near and dear to my heart. &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLScMnjpp_jKMvM5ijru5cCZJYlk6cKDdKaNr54raQV-fI24k5w/viewform?ts=5c8f9ee0"&gt;Please feedback here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Event-driven Java with Spring Cloud Stream and Azure Event Hubs [Guest Post]</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/04/02/event-driven-java-with-spring-cloud-stream-and-azure-event-hubs-guest-post" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Ben Wilcock</name>
+    </author>
+    <id>tag:spring.io,2019-03-28:3615</id>
+    <updated>2019-04-02T00:00:00Z</updated>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Asir Selvasingh | Principal PM Architect | Microsoft – Java on Azure&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Spring Cloud Stream Binder for Azure Event Hubs is now generally available. &lt;/p&gt;
+&lt;p&gt;It is simple to build highly scalable event-driven Java apps using Spring Cloud Stream with Event Hubs, a fully managed, real-time data ingestion service on Azure that is resilient and reliable service for any situation; this includes emergencies, thanks to its geo-disaster recovery and geo-replication features.&lt;/p&gt;
+&lt;p&gt;Spring Cloud Stream provides a binder abstraction for popular message broker implementations. It provides a flexible programming model built on already established and familiar Spring idioms and best practices, including support for persistent pub/sub semantics, consumer groups, and stateful partitions. Now, developers can use the same patterns for building Java apps with Event Hubs. &lt;/p&gt;
+&lt;p&gt;&lt;img src="https://static.spring.io/blog/bwilcock/20190328/[001]-Guest-Post_Event-driven-Java-with-Spring-Cloud-Stream-and-Azure-Event-Hubs.png" alt="Diagram showing Spring Apps inputting to Azure Event Hubs and outputting to other Spring apps, using the Azure event hubs binder and channels." title="Spring Apps inputting to Azure Event Hubs and outputting to other Spring apps, using the Azure event hubs binder and channels" /&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#getting-started" class="anchor" name="getting-started"&gt;&lt;/a&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Check out &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?view=azure-java-stable"&gt;this tutorial&lt;/a&gt; and build a Java-based Spring Cloud Stream Binder application using the Spring Boot Initializer with Azure Event Hubs. Go to the Azure portal and create a new Event Hubs namespace. Add the following Maven dependency into your Java project.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;dependency&amp;gt; &#xD;
+    &amp;lt;groupId&amp;gt;com.microsoft.azure&amp;lt;/groupId&amp;gt; &#xD;
+	&amp;lt;artifactId&amp;gt;spring-cloud-azure-eventhubs-stream-binder&amp;lt;/artifactId&amp;gt; &#xD;
+    &amp;lt;version&amp;gt;1.1.0.RC2&amp;lt;/version&amp;gt; &#xD;
+&amp;lt;/dependency&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#publish-messages" class="anchor" name="publish-messages"&gt;&lt;/a&gt;Publish messages&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;@EnableBinding(Source.class)&lt;/code&gt; to annotate a source class and publish messages to Event Hubs with Spring Cloud Stream patterns. You can customize the output channel for the Source with configurations. &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Destination: specify which Event Hub to connect with the output channel&lt;/li&gt;
+  &lt;li&gt;Sync/Async: specify the mode to produce the messages&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#subscribe-to-messages" class="anchor" name="subscribe-to-messages"&gt;&lt;/a&gt;Subscribe to messages&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;@EnableBinding(Sink.class)&lt;/code&gt; to annotate a sink class and consume messages from Event Hubs. You can also customize the input channel with configurations. Please refer to this &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub"&gt;tutorial&lt;/a&gt; for the full list.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Destination: specify an Event Hub to bind with the input channel&lt;/li&gt;
+  &lt;li&gt;Customer Group: specify a &lt;a href="https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-features#consumer-groups"&gt;Consumer Group&lt;/a&gt; to receive messages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Try building event-driven Java apps using Spring Cloud Stream Binder for Event Hubs &lt;/p&gt;&lt;h2&gt;&lt;a href="#try-out-a-java-app-using-a-href-https-docs-microsoft-com-en-us-java-azure-spring-framework-configure-spring-cloud-stream-binder-java-app-azure-event-hub-view-azure-java-stable-spring-cloud-stream-binder-on-azure-event-hubs-a-and-let-us-know-what-you-think-via-e-mail-or-comments-below" class="anchor" name="try-out-a-java-app-using-a-href-https-docs-microsoft-com-en-us-java-azure-spring-framework-configure-spring-cloud-stream-binder-java-app-azure-event-hub-view-azure-java-stable-spring-cloud-stream-binder-on-azure-event-hubs-a-and-let-us-know-what-you-think-via-e-mail-or-comments-below"&gt;&lt;/a&gt;Try out a Java app using &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?view=azure-java-stable"&gt;Spring Cloud Stream Binder on Azure Event Hubs&lt;/a&gt; and let us know what you think via e-mail or comments below.&lt;/h2&gt;&lt;h2&gt;&lt;a href="#additional-resources" class="anchor" name="additional-resources"&gt;&lt;/a&gt;Additional Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tutorial: &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?view=azure-java-stable"&gt;How to create a Spring Cloud Stream Binder application with Azure Event Hubs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tutorial: &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework"&gt;Spring on Azure Developer Hub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tutorial: &lt;a href="https://docs.microsoft.com/en-us/java/azure/"&gt;Java on Azure Developer Hub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitHub: &lt;a href="https://github.com/Microsoft/spring-cloud-azure"&gt;Spring Cloud for Azure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn more: &lt;a href="https://azure.microsoft.com/en-us/services/event-hubs/"&gt;Azure Event Hubs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#about-the-author" class="anchor" name="about-the-author"&gt;&lt;/a&gt;About the Author&lt;/h3&gt;
+&lt;p&gt;Asir started his software engineering career in the early days of Java, in 1995, and built enterprise products, applications and open source projects for many years. Now, he is a Principal PM Architect at Microsoft focusing on a full gamut of services and tools for developers to build and scale Java workloads on Azure. He works closely with the community, delivering sessions at Java conferences and fostering strategic relations that enrich the Java ecosystem.&lt;/p&gt;
+&lt;p&gt;In his free-time, Asir loves to tinker with Java apps on Azure, which serves as a creative outlet from his day job. He’s passionate about cooking and photography and enjoys quality family time traveling the world.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Spring Framework 5.1.6, 5.0.13 and 4.3.23 available now</title>
@@ -656,65 +713,5 @@ dependencies {
 &lt;p&gt;One area where lazy initialization can be highly beneficial with few, if any, downsides is during development. As you&amp;rsquo;re iterating on an application, the reduced startup times offered by lazy initialization and DevTools&amp;rsquo; hot restarts can dramatically improve your productivity.&lt;/p&gt;
 &lt;p&gt;Another area that can benefit from lazy initialization is your application&amp;rsquo;s integration tests. You may already be using Spring Boot&amp;rsquo;s test slices to reduce test execution time by limiting the number of beans that are initialized in certain types of tests. Lazy initialization provides an alternative mechanism to achieve a similar end result. If you&amp;rsquo;re not in a position to structure your application such that it&amp;rsquo;s amenable to test slicing, or if there isn&amp;rsquo;t a slice available for a particular type of test, enabling lazy initialization will limit the beans that are initialized to those that are needed by the test. This will reduce test execution time, particularly when running a test in isolation during development.&lt;/p&gt;
 &lt;p&gt;Lastly, you may want to consider enabling lazy initialization in production. If you do so, it should be done with care. For web applications, container orchestration may benefit from a &lt;code&gt;/health&lt;/code&gt; endpoint that is able to respond more quickly, but you also need to be aware of the potential for increased latency when the first request is made to one of the application&amp;rsquo;s own endpoints. You should also take care to size your application&amp;rsquo;s JVM with lazy initialization disabled to avoid any unwanted out of memory errors once all of its components have been used.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - March 12th, 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/13/this-week-in-spring-march-12th-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-03-13:3602</id>
-    <updated>2019-03-13T06:13:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! What a week! I&amp;rsquo;m in Seattle, Washington where I&amp;rsquo;ve been spending time with Pivotal partner Microsoft talking about all things Spring, Cloud Foundry and Azure, and then tonight I spoke at the Seattle Java User Group on Reactive Spring. &lt;/p&gt;
-&lt;p&gt;Tomorrow morning I&amp;rsquo;m off to jolie Montreal, Canada for the epic ConFoo conference. Are &lt;a href="http://twitter.com/Starbuxman"&gt;you going to be around? Say hi!&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Anyway, without further ado let&amp;rsquo;s get to this week&amp;rsquo;s roundup! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/11/memory-footprint-of-the-jvm"&gt;Memory footprint of the JVM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/08/spring-boot-2-2-m1"&gt;Spring Boot 2.2 M1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/08/a-bootiful-podcast-matt-raible-and-james-ward-at-devnexus-2019"&gt;A Bootiful Podcast: Matt Raible and James Ward at Devnexus 2019&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/spring-cloud-greenwich-sr1-is-now-available"&gt;Spring Cloud Greenwich.SR1 is now available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/spring-data-moore-m2-released"&gt;Spring Data Moore M2 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/07/has-there-ever-been-a-better-time-to-become-a-java-developer"&gt;Has there ever been a better time to become a Java developer?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/03/06/spring-cloud-data-flow-and-skipper-2-0-ga-released"&gt;Spring Cloud Data Flow and Skipper 2.0 GA Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love this post on the nuances of assembly versus subscription in Reactor: &lt;a href="https://spring.io/blog/2019/03/06/flight-of-the-flux-1-assembly-vs-subscription"&gt;Flight of the Flux (part 1)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Good news everybody! Today marks the 30th anniversary of the &lt;a href="https://www.nbcnews.com/tech/tech-news/world-wide-web-30-its-inventor-has-warning-us-n982156"&gt;World Wide Web&lt;/a&gt;! Tim Berners Lee, who created the HTTP web, has a stark warning for us worth our attention.&lt;/li&gt;
-  &lt;li&gt;This is an interesting third-party project that generates HTTP request snippets &lt;a href="https://github.com/atkawa7/httpsnippet"&gt;for SpringFox which integrates Swagger with Spring&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;The Codecentric blog has an interesting approach to &lt;a href="https://blog.codecentric.de/en/2019/03/spot-mismatches-between-your-spec-and-your-rest-api/"&gt;spotting mismatches between your specification and your REST API with hikakug&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Have you seen this? A gorgeous Kotlin DSL that lets you build piplines in Kotlin code for the Spinnaker, &lt;a href="https://github.com/canal-pipelines/canal"&gt;the continuous delivery pipeline&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Spring HATEOAS now &lt;a href="https://twitter.com/sebastien_pel/status/1102977786262757377"&gt;supports reactive and Spring WebFlux&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Memory footprint of the JVM</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/03/11/memory-footprint-of-the-jvm" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2019-03-07:3598</id>
-    <updated>2019-03-11T10:40:00Z</updated>
-    <content type="html">&lt;p&gt;The JVM can be a complex beast. Thankfully, much of that complexity is under the hood, and we as application developers and deployers often don&amp;rsquo;t have to worry about it too much. With the rise of container-based deployment strategies, one area of complexity that needs some attention is the JVM&amp;rsquo;s memory footprint.&lt;/p&gt;&lt;h2&gt;&lt;a href="#two-kinds-of-memory" class="anchor" name="two-kinds-of-memory"&gt;&lt;/a&gt;Two kinds of memory&lt;/h2&gt;
-&lt;p&gt;The JVM divides its memory into two main categories: heap memory and non-heap memory. Heap memory is the part with which people are typically the most familiar. It&amp;rsquo;s where objects that are created by the application are stored. They remain there until they are no longer referenced and are garbage collected. Typically, the amount of heap that an application is using will fluctuate as a function of the current load.&lt;/p&gt;
-&lt;p&gt;The JVM&amp;rsquo;s non-heap memory is divided into several different areas. We can use the HotSpot VM&amp;rsquo;s &lt;a href="https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html"&gt;native memory tracking (NMT)&lt;/a&gt; to examine its memory usage across these areas. Note that, while NMT does not track all native memory usage (it &lt;a href="https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html"&gt;does not track third party native code memory allocations&lt;/a&gt;, for example), it is sufficient for a large class of typical Spring applications. NMT can be used by starting the application with &lt;code&gt;-XX:NativeMemoryTracking=summary&lt;/code&gt; and then using &lt;code&gt;jcmd &amp;lt;pid&amp;gt; VM.native_memory summary&lt;/code&gt; to display the memory usage summary.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s illustrate the use of NMT by looking at an application, in this case our old friend, Petclinic. The following pie chart shows the JVM&amp;rsquo;s memory usage as reported by NMT (minus its own overhead) when starting Petclinic with a 48MB max heap (&lt;code&gt;-Xmx48M&lt;/code&gt;):&lt;/p&gt;
-&lt;center&gt;&#xD;
-&lt;img width=50% height=50% src="https://static.spring.io/blog/wilkinsona/20190311/memory-usage.png"&gt;&lt;/img&gt;&#xD;
-&lt;/center&gt;
-&lt;p&gt;As you can see non-heap memory accounts for the vast majority of the JVM&amp;rsquo;s memory usage with the heap memory accounting for only one sixth of the total. In this case it was roughly 44MB (with 33MB of that being used immediately after garbage collection). The non-heap memory usage was 223MB in total.&lt;/p&gt;&lt;h3&gt;&lt;a href="#native-memory-areas" class="anchor" name="native-memory-areas"&gt;&lt;/a&gt;Native Memory areas&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Compressed class space&lt;/strong&gt;: used to store information about the classes that have been loaded. Constrained by &lt;code&gt;MaxMetaspaceSize&lt;/code&gt;. A function of the number of classes that have been loaded.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Thread&lt;/strong&gt;: memory used by threads in the JVM. A function of the number of threads that are running.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Code cache&lt;/strong&gt;: memory used by the JIT to store its output. A function of the number of classes that have been loaded. Constrained by &lt;code&gt;ReservedCodeCacheSize&lt;/code&gt;. Can be reduced by tuning the JIT to, for example, disable tiered compilation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GC&lt;/strong&gt;: stores data used by the GC. Varies depending on which garbage collector is being used.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Symbol&lt;/strong&gt;: stores symbols such as field names, method signatures, and interned strings. Excessive symbol memory usage can be an indicator that Strings have been interned too aggressively.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Internal&lt;/strong&gt;: stores other internal data that does not fit into any of the other areas.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;&lt;a href="#differences" class="anchor" name="differences"&gt;&lt;/a&gt;Differences&lt;/h3&gt;
-&lt;p&gt;Compared to heap memory, non-heap memory is less likely to vary under load. Once an application has loaded all of the classes that it will use and the JIT is fully warmed up, things will settle into a steady state. To see a reduction in compressed class space usage, the class loader that loaded the classes needs to be garbage collected. This was more common in the past when applications were deployed to servlet containers or app servers – the application&amp;rsquo;s class loader would be garbage collected when the application was undeployed – but rarely happens with modern approaches to application deployment.&lt;/p&gt;&lt;h2&gt;&lt;a href="#sizing-the-jvm" class="anchor" name="sizing-the-jvm"&gt;&lt;/a&gt;Sizing the JVM&lt;/h2&gt;
-&lt;p&gt;Configuring the JVM to make efficient use of a given amount of available RAM isn&amp;rsquo;t easy. If you launch the JVM with &lt;code&gt;-Xmx16M&lt;/code&gt; and expect it to use, at most, 16MB of RAM you are in for a nasty surprise.&lt;/p&gt;
-&lt;p&gt;An interesting area when sizing the JVM is the JIT&amp;rsquo;s code cache. By default, the HotSpot JVM will use up to 240MB. If the code cache is too small the JIT will run out of space to store its output and performance will suffer as a result. If the cache is too large, memory may be wasted. When sizing the code cache, it&amp;rsquo;s important to look at the effect on both your application&amp;rsquo;s memory usage and its performance.&lt;/p&gt;
-&lt;p&gt;When running in a Docker container, recent versions of Java are &lt;a href="https://bugs.openjdk.java.net/browse/JDK-8146115"&gt;now aware&lt;/a&gt; of the container&amp;rsquo;s memory limits and attempt to size the JVM accordingly. Unfortunately, this sizing often over-allocates non-heap memory and under-allocates the heap. Say you have an application running in a container with 2 CPUs and 512MB of memory available. You want it to be able to handle more load so you double the CPUs to 4 and the memory to 1GB. As we discussed above, heap usage typically varies depending on the load, and non-heap usage much less so. Therefore, we&amp;rsquo;d like the vast majority of the extra 512MB of memory to be given to the heap to cope with the increased load. Unfortunately, the JVM does not do so by default and will allocate the additional memory more equally between its heap and non-heap areas.&lt;/p&gt;
-&lt;p&gt;Thankfully, the CloudFoundry team have a wealth of knowledge about the JVM&amp;rsquo;s memory footprint. If you&amp;rsquo;re pushing apps to CloudFoundry, the build pack will automatically apply this knowledge for you. If you&amp;rsquo;re not using CloudFoudry, or you&amp;rsquo;d like to understand more about how to size your JVM, the &lt;a href="https://docs.google.com/document/d/1vlXBiwRIjwiVcbvUGYMrxx2Aw1RVAtxq3iuZ3UK2vXA/edit?usp=sharing"&gt;design document&lt;/a&gt; for version three of the &lt;a href="https://github.com/cloudfoundry/java-buildpack-memory-calculator"&gt;Java buildpack&amp;rsquo;s memory calculator&lt;/a&gt; provides some highly recommended further reading.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-does-this-mean-for-spring" class="anchor" name="what-does-this-mean-for-spring"&gt;&lt;/a&gt;What does this mean for Spring?&lt;/h2&gt;
-&lt;p&gt;We spend a lot of time on the Spring team thinking about performance and memory utilisation, considering both heap and non-heap memory usage. One way to limit non-heap memory usage is to make parts of the Framework as general-purpose as possible. An example of this is the use of reflection to create and inject dependencies into your application&amp;rsquo;s beans. Thanks to the use of reflection, the amount of Framework code that&amp;rsquo;s used remains constant, irrespective of how many beans your application contains. We use a heap-based cache to optimise startup time, clearing this cache once startup has completed. The heap memory can then be easily reclaimed by the garbage collector, making as much memory as possible available to your application as it handles its workload.&lt;/p&gt;</content>
   </entry>
 </feed>

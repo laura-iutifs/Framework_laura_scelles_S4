@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="io.github.jeemv.springboot.vuejs.utilities.JsArray"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="java.lang.ProcessBuilder.Redirect"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.view.RedirectView"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="s4.spring.repositories.HistoryRepo"/>
+<fullyQualifiedTypeName name="s4.spring.entities.History"/>
+<fullyQualifiedTypeName name="org.hibernate.dialect.identity.GetGeneratedKeysDelegate"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.ScriptTemplateConfigurerBeanDefinitionParser"/>
+<fullyQualifiedTypeName name="s4.spring.entities.Script"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>
