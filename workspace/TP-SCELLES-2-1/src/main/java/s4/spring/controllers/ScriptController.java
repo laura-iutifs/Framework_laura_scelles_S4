@@ -49,10 +49,13 @@ public class ScriptController {
 	public String afficherScripts(Model model, HttpSession session) {
 		// afficher liste des scripts
 		User user = (User) session.getAttribute("UtilisateurConnecte");
-		model.addAttribute("scripts", user.getScripts());
-		model.addAttribute("langages", languagesRepo.findAll());
-		model.addAttribute("categories", categoriesRepo.findAll());
-		return "script";
+		if (user != null) {
+			model.addAttribute("scripts", user.getScripts());
+			model.addAttribute("langages", languagesRepo.findAll());
+			model.addAttribute("categories", categoriesRepo.findAll());
+			return "script";
+		}
+		return "login";
 	}
 
 	@RequestMapping("creerScript")
@@ -85,48 +88,46 @@ public class ScriptController {
 	@GetMapping("script/new")
 	public String ajouterScript(Model model, HttpSession session) {
 		User user = (User) session.getAttribute("UtilisateurConnecte");
-		
+
 		if (user != null) {
 			model.addAttribute("script", new Script());
 			model.addAttribute("languages", languagesRepo.findAll());
 			model.addAttribute("categories", categoriesRepo.findAll());
 			return "script/new";
-		}else 
+		} else
 			return "../login";
 	}
 
 	@PostMapping("script/new")
 	public RedirectView ajouterScript(@ModelAttribute("script") Script script, @RequestParam int categoryId,
-			@RequestParam int laguageId, Model model, HttpSession session) {
+			@RequestParam int languageId, Model model, HttpSession session) {
 		System.out.println(script); // affichage pour debug
-		
-		
-		Optional<Script> opt = scriptsRepo.findById(script.getId());
+		System.out.println(categoryId);
+		System.out.println(languageId);
 
 		Script sc = new Script(); // nouveau script
 
 		sc.setTitle(script.getTitle());
 		sc.setDescription(script.getDescription());
 		sc.setContent(script.getContent());
-		
-		sc.setLanguage(languagesRepo.findById(laguageId));
+
+		sc.setLanguage(languagesRepo.findById(languageId));
 		sc.setCategory(categoriesRepo.findById(categoryId));
 		sc.setCreationDate(getDate());
-		
+
 		User user = (User) session.getAttribute("UtilisateurConnecte");
 		sc.setUser(user);
-		
+
 		scriptsRepo.save(sc);
-		
-		//creation historique
-		script = opt.get(); 
+
+		// creation historique
 		History history = new History();
 		history.setScripts(sc);
 		history.setComment(script.getDescription());
 		history.setContent(script.getContent());
 		history.setDate(getDate());
 		historiesRepo.save(history);
-		
+
 		return new RedirectView("index");
 	}
 
@@ -144,19 +145,25 @@ public class ScriptController {
 	}
 
 	// supprimer script
+	
+	//@GetMapping("script/delete/{id}")
+	//public RedirectView delete(@PathVariable int id, Script script, HttpSession session) {
+		//User user = (User) session.getAttribute("UtilisateurConnecte");
 
-	@GetMapping("script/delete/{id}")
-	public RedirectView delete(@PathVariable int id, Script script) {
-		scriptsRepo.delete(script);
-		return new RedirectView("/index");
-		// TODO trouver pourquoi il faut se deconnecter pour actualiser liste des
-		// scripts
-	}
+		//if (user != null) {
+		//	scriptsRepo.delete(script);
+		//	return new RedirectView("/index");
+			//TODO trouver pourquoi il faut se deconnecter pour actualiser liste des
+			// scripts
+		//}
+		//	return new RedirectView("/login");
+		
+	//}
 
 	// ----------------fonction transformation date---------------------------
 
 	private String getDate() {
-		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 		Date date = new Date();
 		return dateFormat.format(date);
 	}
